@@ -15,7 +15,9 @@
     </head>
     <body>
         <style>
-
+            body{background-color:aliceblue(255, 197, 111, 0.303)}
+            h2{color: black; font-style: italic; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: xx-large;}
+            h1{color: black; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 100cap;}
         </style>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -47,7 +49,7 @@
             </div>
         </nav>
         <!-- Header-->
-        <header class="bg-dark py-5">
+        <header class="bg-danger py-5">
             <div class="container px-4 px-lg-5 my-5">
                 <div class="text-center text-white">
                     <h1 class="display-4 fw-bolder">Löydä Seuraava Puhelimesi!</h1>
@@ -71,8 +73,8 @@
             
             function kerro (data){
                 teksti = ""
-                for(i=0;i<data.Puhelimet.length;i++){
-                teksti += "<center>" + data.Puhelimet[i].puhelin + "<img src='" + data.Puhelimet[i].kuva + "' alt='kuva' >" 
+                for(i=0;i<data.Etusivu.length;i++){
+                teksti += "<center>" + "<h2>" + data.Etusivu[i].puhelin + "</h2>" + "<img src='" + data.Etusivu[i].kuva + "' alt='kuva' height='300' >" + "</center>" + "<br>"
                 }
                 
             
@@ -85,7 +87,7 @@
     
 
         <!-- Footer-->
-        <footer class="py-5 bg-dark">
+        <footer class="py-5 bg-danger">
             <div  class="container" ><p class="m-0 text-center text-white" >Copyright &copy; Your Website 2023</p></div>
         </footer>
         <!-- Bootstrap core JS-->
