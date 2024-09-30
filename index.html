@@ -78,8 +78,10 @@
                 for(i=0;i<data.Etusivu.length;i++){
                 teksti += "<center>" + "<h2>" + data.Etusivu[i].puhelin + "</h2>" + "<img src='" + data.Etusivu[i].kuva + "' alt='kuva' height='300' >" + "</center>" + "<br>"
                 }
-                
-            
+                teksti += "<div id=\"demo\" class=\"carousel slide\" data-bs-ride=\"carousel\">" + 
+                    "<div class=\"carousel-indicators\">\r\n    <button type=\"button\" data-bs-target=\"#demo\" data-bs-slide-to=\"0\" class=\"active\"><\/button>\r\n    <button type=\"button\" data-bs-target=\"#demo\" data-bs-slide-to=\"1\"><\/button>\r\n    <button type=\"button\" data-bs-target=\"#demo\" data-bs-slide-to=\"2\"><\/button>\r\n  <\/div>";
+                    + "<div class=\"carousel-inner\">\r\n    <div class=\"carousel-item active\">\r\n      <img src=\"la.jpg\" alt=\"Los Angeles\" class=\"d-block w-100\">\r\n    <\/div>\r\n    <div class=\"carousel-item\">\r\n      <img src=\"chicago.jpg\" alt=\"Chicago\" class=\"d-block w-100\">\r\n    <\/div>\r\n    <div class=\"carousel-item\">\r\n      <img src=\"ny.jpg\" alt=\"New York\" class=\"d-block w-100\">\r\n    <\/div>\r\n  <\/div>";
+                        + "<button class=\"carousel-control-prev\" type=\"button\" data-bs-target=\"#demo\" data-bs-slide=\"prev\">\r\n    <span class=\"carousel-control-prev-icon\"><\/span>\r\n  <\/button>\r\n  <button class=\"carousel-control-next\" type=\"button\" data-bs-target=\"#demo\" data-bs-slide=\"next\">\r\n    <span class=\"carousel-control-next-icon\"><\/span>\r\n  <\/button>\r\n<\/div>";
                             
                 document.getElementById("vastaus").innerHTML = teksti
                 }
