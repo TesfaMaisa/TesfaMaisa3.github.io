@@ -72,14 +72,14 @@
             function kerro (data){
                 teksti = ""
                 for(i=0;i<data.length;i++){}
-                teksti += "<h2>" + data.Otsikot[0] + "<img align='right' src='" + data.Kuvat[0] + "' alt='kuva' height='200' >" + "<h2>"
-                teksti += 
+                teksti += "<center>" + "<h2>" + data.Puhelimet[i].puhelin + "<img src='" + data.Kuvat[0] + "' alt='kuva' height='300' >" + "<h2>"
+                teksti += "<h2>" + data.Otsikot[0] + "<img src='" + data.Kuvat[0] + "' alt='kuva' height='300' >" + "<h2>" 
                              
                 
             
-                                
+                            
                 document.getElementById("vastaus").innerHTML = teksti
-            }
+                }
         </script>
             
 
@@ -87,7 +87,7 @@
 
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
+            <div  class="container" ><p class="m-0 text-center text-white" >Copyright &copy; Your Website 2023</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
