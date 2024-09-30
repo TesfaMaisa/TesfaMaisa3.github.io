@@ -71,8 +71,8 @@
             
             function kerro (data){
                 teksti = ""
-                for(i=0;i<data.length;i++){
-                teksti += data[i].Puhelimet.puhelin
+                for(i=0;i<data.Puhelimet.length;i++){
+                teksti += "<center>" + data.Puhelimet[i].puhelin + "<img src='" + data.Puhelimet[i].kuva + "' alt='kuva' >" 
                 }
                 
             
