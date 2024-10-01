@@ -1,14 +1,14 @@
 {
     "Etusivu":{
-    "Tuotteet":[
-        {
-        "puhelin": "Apple iPhone 14",
-        "kuva": "https://www.apple.com/v/iphone/home/bw/images/overview/select/iphone_16pro__erw9alves2qa_large_2x.png"
-         }
-            ],
-    "Otsikko":
-            "PÄIVÄN DIILIT!"
-        },
-        "Info": "Olemme Suomen suosituin käytettyjen puhelimien markkinapaikka. Tiukka tarkastusprosessimme varmistaa, että puhelimet ovat täydellisessä myynntikunnossa. <br> Jokainen laite on testattu ja palautettu täydelliseen toimintakuntoon alan standardien mukaisesti. Kaikki tämä 70 % edullisemmin kuin täysin uusi laite." 
-
-}
+       "Otsikko":"PÄIVÄN DIILIT!"
+    },
+    "Info":"Olemme Suomen suosituin käytettyjen puhelimien markkinapaikka. Tiukka tarkastusprosessimme varmistaa, että puhelimet ovat täydellisessä myynntikunnossa. <br> Jokainen laite on testattu ja palautettu täydelliseen toimintakuntoon alan standardien mukaisesti. Kaikki tämä 70 % edullisemmin kuin täysin uusi laite.",
+    "Yhteystiedot":[
+       {
+          "Nimi":"RingRing Oy",
+          "Osoite":"Lukkokuja 6, 33710 Tampere",
+          "Puhelin":"0506738295",
+          "Posti":"Kauppa@RingRing.fi"
+       }
+    ]
+ }

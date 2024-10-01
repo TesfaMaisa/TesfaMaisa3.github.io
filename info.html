@@ -18,7 +18,7 @@
             body{background-color:aliceblue(255, 197, 111, 0.303)}
             h2{color: black;  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: xx-large;}
             h1{color: black; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 400%; font-style: italic;}
-            p{color: yellowgreen;}
+            p{color:black; font-weight: bolder; font-size: large;}
             h3{color:rgb(11, 10, 10); font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 300%;}
             h4{color:black; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 300%;}
         </style>
@@ -30,16 +30,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                         <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Koti</a></li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Kaikki Puhelimet</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="info.html">Info</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kauppa</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#!">Kaikki puhelimet</a></li>
-                                <li><hr class="dropdown-divider" /></li>
-                                <li><a class="dropdown-item" href="#!">Suosituimmat</a></li>
-                                <li><a class="dropdown-item" href="#!">Uusimmat</a></li>
-                            </ul>
-                        </li>
                     </ul>
                     <form class="d-flex">
                         <button class="btn btn-outline-dark" type="submit">
@@ -55,6 +47,7 @@
         <header class="bg-danger py-5">
             <div class="container px-4 px-lg-5 my-5">
                 <div class="text-center text-white">
+                    <h1>Infopiste</h1>
                 </div>
             </div>
         </header> 
@@ -74,7 +67,8 @@
             
             function kerro (data){
                 teksti = ""
-                teksti += "<center>" + "<h4>" + data.Info
+                teksti += "<br>" + "<center>" + "<p>" + data.Info + "</p>" + "<br>" + "<br>" 
+                teksti += "Yhteystiedot: " + data.Yhteystiedot[0].Nimi + " | " + data.Yhteystiedot[0].Osoite + " | " + data.Yhteystiedot[0].Puhelin + " | " + data.Yhteystiedot[0].Posti
                 document.getElementById("vastaus").innerHTML = teksti
                 }
         </script>

@@ -73,8 +73,9 @@
             
             function kerro (data){
                 teksti = ""
-                for (j=0;j<data.Etusivu.Otsikko.length;j++){}
-                    teksti += '<marquee width="100%" direction="right" height="100px">' + "<h3>" + data.Etusivu.Otsikko + "</h3>" + '</marquee>' + "<br>"
+                for (j=0;j<data.Etusivu.Otsikko.length;j++){
+                    teksti += '<marquee width="100%" direction="right" height="100px">' + "<h3>" + data.Etusivu.Otsikko + "</h3>" + '</marquee>'
+                }
                 document.getElementById("vastaus").innerHTML = teksti
                 }
         </script>
