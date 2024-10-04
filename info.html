@@ -24,6 +24,42 @@
 </head>
 
 <body>
+    <style>
+        body {
+            background-color: aliceblue(255, 197, 111, 0.303)
+        }
+
+        h2 {
+            color: black;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: xx-large;
+        }
+
+        h1 {
+            color: black;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 400%;
+            font-style: italic;
+            text-transform: uppercase;
+        }
+
+        .btn {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: rgb(244, 243, 243);
+            background-color: black;
+            }
+
+            h3 {
+                color: rgb(11, 10, 10);
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 300%;
+            }
+
+            .text-muted {
+                text-decoration: line-through;
+                text-decoration-color: rgb(0, 1, 1);
+            }
+    </style>
     <!--? Preloader Start -->
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
@@ -108,7 +144,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="hero-cap text-center">
-                                <h2>About Us</h2>
+                                <h1>Infopiste</h1>
                             </div>
                         </div>
                     </div>
@@ -123,6 +159,7 @@
                     <div class="offset-xl-1 col-lg-8">
                         <div class="about-details-cap mb-50">
                             <h4>Our Mission</h4>
+                            <div id="info"></div>
                             <script>
                                 fetch('JSON.JSON')
                                     .then(function (response) {
@@ -139,10 +176,10 @@
                                     teksti = ""
                                     teksti += "<br>" + "<center>" + "<p>" + data.Info + "</p>" + "<br>" + "<br>"
                                     teksti += "Yhteystiedot: " + data.Yhteystiedot[0].Nimi + " | " + data.Yhteystiedot[0].Osoite + " | " + data.Yhteystiedot[0].Puhelin + " | " + data.Yhteystiedot[0].Posti
-                                    document.getElementById("vastaus").innerHTML = teksti
+                                    document.getElementById("info").innerHTML = teksti
                                 }
                             </script>
-                        </div>
+                        
 
                         <div class="about-details-cap mb-50">
                             <h4>Our Vision</h4>
