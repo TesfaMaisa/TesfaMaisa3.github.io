@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Full Width Pics - Start Bootstrap Template</title>
+        <title>Raisio LUXE</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -19,14 +19,19 @@
                 background-color: black
             }
 
-            h2 {
-                color: yellow;
+            h2{
+                color: rgb(242, 211, 8);
+                text-decoration: underline;
             }
             h4{
                 color: yellow;
             }
-            h1{
-                color: yellow; text-decoration: underline;
+            h1 {
+                color: rgb(242, 211, 8);
+                border-style: ridge;
+                border-radius: 2cap;
+               border-color: rgb(242, 211, 8);
+               
             }
 
             p {
@@ -34,34 +39,37 @@
                 text-align: center;
                 margin: 0 25% 0 25%;
             }
+            hr{
+                color:rgb(242, 211, 8) ;
+            }
         </style>
         <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-inverted bg-warning">
             <div class="container">
-                <a class="navbar-brand" href="#!"><img src="finnkino.png" height="50" alt="Finnkino logo"></a>
+                <a class="navbar-brand" href="index.html"><img src="luxe2.png" height="80" alt="Finnkino logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation"><span
                         class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html"><h4>Elokuvat</h4></a></li>
-                        <li class="nav-item"><a class="nav-link active" href="Uutiset.html"><h4>Uutiset</h4></a></li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Elokuvat</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="Uutiset.html">Uutiset</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Header - set the background image for the header in the line below-->
         <header class="py-5 bg-image-full"
-            style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900')">
-            <div class="text-center my-5">
-                <img class="img-fluid rounded-circle mb-4" src="https://dummyimage.com/150x150/6c757d/dee2e6.jpg"
-                    alt="..." />
-                <h1 class="text-white fs-3 fw-bolder">Full Width Pics</h1>
-                <p class="text-white-50 mb-0">Landing Page Template</p>
-            </div>
-        </header>
-        <div class="justify-content-center" id="vastaus"></div>
+        style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900')">
+        <div class="text-center my-5">
+            <img class="img-fluid rounded-circle mb-4" src="luxe.jpeg"
+                alt="..." />
+            <div class="text">
+            <p class="text-white-50 mb-0"></p>
+        </div>
+    </header>
+        <div id="vastaus"></div>
         <script>
             fetch('https://run.mocky.io/v3/e34e055e-a27e-437d-9ed9-026b9e88abc6')
                 .then(function (response) {
@@ -76,12 +84,12 @@
 
             function kerro(data) {
                 teksti = ""
-                teksti += "<center>" + "<h1>" + "AJANKOHTAISTA" + "<h1>" + "<br>"
+                teksti += "<center>" + "<h1>" + "AJANKOHTAISTA" + "</h1>" + "<br>"
                 for (i = 0; i < data.News.NewsArticle.length; i++) {
                     if (data.News.NewsArticle[i].HTMLLead != "") {
                         teksti +="<br>" + "<h2>" + data.News.NewsArticle[i].Title + "</h2>" + "<br>"
                         teksti += "<img width='500' src='" + data.News.NewsArticle[i].ImageURL + "' alt='kuva' >" + "<br>"
-                        teksti += "<br>" + "<p>" + data.News.NewsArticle[i].HTMLLead + "</p>" + "<br>"
+                        teksti += "<br>" + "<p>" + data.News.NewsArticle[i].HTMLLead + "</p>" + "<br>" + "<hr>"
                     }
 
                 }
@@ -89,7 +97,7 @@
             }
         </script>
         <!-- Content section-->
-   
+        <center> <img src="finnkino.png" height="500" alt=""></center>
         <!-- Image element - set the background image for the header in the line below-->
         <div class="py-5 bg-image-full"
             style="background-image: url('https://source.unsplash.com/4ulffa6qoKA/1200x800')">
@@ -97,11 +105,11 @@
             <div style="height: 20rem"></div>
         </div>
         <!-- Content section-->
-   
+        <center> <img src="finnkino.png" height="500" alt=""></center>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
             <div class="container">
-                <p class="m-0 text-center text-white"> &copy; Raisio LUXE 2024</p>
+                <p class="m-0 text-center text-white"> &copy; LUXE 2024</p>
             </div>
         </footer>
         <!-- Bootstrap core JS-->

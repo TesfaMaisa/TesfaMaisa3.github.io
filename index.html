@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -11,6 +12,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
+
     <body>
         <style>
             body {
@@ -18,81 +20,120 @@
             }
 
             h2 {
-                color: yellow;
-            }
-            
-            h1 {
-                color: yellow; text-decoration: underline;
+                color: rgb(242, 211, 8);
             }
 
-            p {
+            h1 {
+                color: rgb(242, 211, 8);
+                border-style: ridge;
+                border-radius: 2cap;
+                border-color: rgb(242, 211, 8);
+               
+            }
+            .text {
+                color: rgb(242, 211, 8);
+                font-weight: bolder;
+                font-size: 400%;
+            }
+
+            li {
                 color: aliceblue;
                 text-align: center;
-                margin: 0 25% 0 25%;
+               
+
+
+
             }
-            h4{
-                color: yellow;
+
+            h4 {
+                color: aliceblue;
             }
+
+           
+            
         </style>
         <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-inverted bg-warning">
             <div class="container">
-                <a class="navbar-brand" href="#!"><img src="finnkino.png" height="50" alt="Finnkino logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <a class="navbar-brand" href="index.html"><img src="luxe2.png" height="80" alt="Finnkino logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html"><h4>Elokuvat</h4></a></li>
-                        <li class="nav-item"><a class="nav-link" href="Uutiset.html"><h4>Uutiset</h4></a></li>
+                        <class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Elokuvat</a>
+                            <class="nav-item"><a class="nav-link" href="Uutiset.html">Uutiset</a>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Header - set the background image for the header in the line below-->
-        <header class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900')">
+        <header class="py-5 bg-image-full"
+            style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900')">
             <div class="text-center my-5">
-                <img class="img-fluid rounded-circle mb-4" src="https://dummyimage.com/150x150/6c757d/dee2e6.jpg" alt="..." />
-                <h1 class="text-white fs-3 fw-bolder">Full Width Pics</h1>
-                <p class="text-white-50 mb-0">Landing Page Template</p>
+                <img class="img-fluid rounded-circle mb-4" src="luxe.jpeg"
+                    alt="..." />
+                <div class="text">
+                <p class="text-white-50 mb-0"></p>
             </div>
         </header>
-        <div id="yhteystiedot"></div>
-        <script>
-            fetch('https://run.mocky.io/v3/fe891906-af88-420d-bff9-55092f8d0ab9')
-                .then(function (response) {
-                    return response.json();
-                })
-                .then(function (responsejson) {
-                    kerro(responsejson)
-                })
-                .catch(function (error) {
-                    document.getElementById("vastaus").innerHTML = "EI OK"
-                });
+        <div id="vastaus"></div>
     
-            function kerro(data) {
-                teksti = ""
-                teksti += "<center>" + "<h1>" + "OHJELMISTOSSA NYT" + "</h1>" + "<br>"
-                for (i=0;i<data.Schedule.Shows.Show.length;i++){
-                teksti += "<p>" + "Nimi: " + "<b>" + data.Schedule.Shows.Show[i].Title + "</b>" + "<br>"
+         
+            <script>
+                fetch('https://run.mocky.io/v3/fe891906-af88-420d-bff9-55092f8d0ab9')
+                    .then(function (response) {
+                        return response.json();
+                    })
+                    .then(function (responsejson) {
+                        kerro(responsejson)
+                    })
+                    .catch(function (error) {
+                        document.getElementById("vastaus").innerHTML = "EI OK"
+                    });
+
+                function kerro(data) {
+                    teksti = ""
+                    teksti += "<center>" + "<h1>" + "OHJELMISTOSSA" + "</h1>" + "<br>"
+                    for (i = 0; i < data.Schedule.Shows.Show.length; i++) {
+                        teksti += "<br>" + "<h2>" + "<b>" + data.Schedule.Shows.Show[i].Title + "</b>" + "</h2>" + "<br>"
+                        teksti += "<br>" + "<img width='500' src='" + data.Schedule.Shows.Show[i].Images.EventLargeImagePortrait + "' alt='kuva' >" + "<b>" + "<br>"
+                        teksti += "<br>" + "<li>" + "Teatteri: " + "<b>" + data.Schedule.Shows.Show[i].TheatreAuditorium + "</li>" + "</b>" + "<br>"
+                        teksti += "<br>" + "<li>" + "<b>" + data.Schedule.Shows.Show[i].PresentationMethod + "</li>" + "</b>" + "<br>"
+                        teksti += "<br>" + "<li>" + "<b>" + data.Schedule.Shows.Show[i].SpokenLanguage.Name + "</li>" + "</b>" + "<br>"
+                        teksti += "<br>" + "<li>" + "<b>" + data.Schedule.Shows.Show[i].dttmShowStart + "</li>" + "</b>" + "<br>"
+                        teksti += "<br>" + "<li>" + "<b>" + data.Schedule.Shows.Show[i].dttmShowEnd + "</li>" + "</b>" + "<br>"
+                        teksti += "<br>" + "<li>" + "<b>" + data.Schedule.Shows.Show[i].Rating + "</li>" + "</b>" + "<br>"
+                        teksti += "<br>" + "<li>" + "<b>" + data.Schedule.Shows.Show[i].Genres + "</li>" + "</b>" + "<br>"
+
+                        
+                    }
+                    document.getElementById("vastaus").innerHTML = teksti
                 }
-                document.getElementById("yhteystiedot").innerHTML = teksti
-            }
-        </script>
+            </script>
+    
         <!-- Content section-->
-  
+        <center> <img src="finnkino.png" height="500" alt=""></center>
+
         <!-- Image element - set the background image for the header in the line below-->
-        <div class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/4ulffa6qoKA/1200x800')">
+        <div class="py-5 bg-image-full"
+            style="background-image: url('https://source.unsplash.com/4ulffa6qoKA/1200x800')">
             <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
             <div style="height: 20rem"></div>
         </div>
         <!-- Content section-->
-  
+
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="container"><p class="m-0 text-center text-white">&copy; Raisio LUXE 2024</p></div>
+            <div class="container">
+                <p class="m-0 text-center text-white">&copy; LUXE 2024</p>
+            </div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
+
 </html>
