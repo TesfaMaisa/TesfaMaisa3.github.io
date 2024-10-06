@@ -158,7 +158,7 @@
                 <div class="row">
                     <div class="offset-xl-1 col-lg-8">
                         <div class="about-details-cap mb-50">
-                            <h4>Our Mission</h4>
+                            <h4>Kuka olemme</h4>
                             <div id="info"></div>
                             <script>
                                 fetch('JSON.JSON')
@@ -175,17 +175,32 @@
                                 function kerro(data) {
                                     teksti = ""
                                     teksti += "<br>" + "<center>" + "<p>" + data.Info + "</p>" + "<br>" + "<br>"
-                                    teksti += "Yhteystiedot: " + data.Yhteystiedot[0].Nimi + " | " + data.Yhteystiedot[0].Osoite + " | " + data.Yhteystiedot[0].Puhelin + " | " + data.Yhteystiedot[0].Posti
                                     document.getElementById("info").innerHTML = teksti
                                 }
                             </script>
                         
 
                         <div class="about-details-cap mb-50">
-                            <h4>Our Vision</h4>
-                            <p>Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna aliqua. Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
-                            </p>
-                            <p> Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan.</p>
+                            <h4>Ota yhteyttä</h4>
+                            <div id="yhteystiedot"></div>
+                            <script>
+                                fetch('JSON.JSON')
+                                    .then(function (response) {
+                                        return response.json();
+                                    })
+                                    .then(function (responsejson) {
+                                        kerro2(responsejson)
+                                    })
+                                    .catch(function (error) {
+                                        document.getElementById("vastaus").innerHTML = "EI OK"
+                                    });
+                    
+                                function kerro2(data2) {
+                                    teksti2 = ""
+                                    teksti2 += "Yhteystiedot: " + data2.Yhteystiedot[0].Nimi + " | " + data2.Yhteystiedot[0].Osoite + " | " + data2.Yhteystiedot[0].Puhelin + " | " + data2.Yhteystiedot[0].Posti
+                                    document.getElementById("yhteystiedot").innerHTML = teksti2
+                                }
+                            </script>
                         </div>
                     </div>
                 </div>
