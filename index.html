@@ -21,6 +21,7 @@
 
             h2 {
                 color: rgb(242, 211, 8);
+                text-decoration: underline;
             }
 
             h1 {
@@ -28,6 +29,7 @@
                 border-style: ridge;
                 border-radius: 2cap;
                 border-color: rgb(242, 211, 8);
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
                
             }
             .text {
@@ -99,13 +101,13 @@
                     for (i = 0; i < data.Schedule.Shows.Show.length; i++) {
                         teksti += "<br>" + "<h2>" + "<b>" + data.Schedule.Shows.Show[i].Title + "</b>" + "</h2>" + "<br>"
                         teksti += "<br>" + "<img width='500' src='" + data.Schedule.Shows.Show[i].Images.EventLargeImagePortrait + "' alt='kuva' >" + "<b>" + "<br>"
-                        teksti += "<br>" + "<li>" + "Teatteri: " + "<b>" + data.Schedule.Shows.Show[i].TheatreAuditorium + "</li>" + "</b>" + "<br>"
-                        teksti += "<br>" + "<li>" + "<b>" + data.Schedule.Shows.Show[i].PresentationMethod + "</li>" + "</b>" + "<br>"
-                        teksti += "<br>" + "<li>" + "<b>" + data.Schedule.Shows.Show[i].SpokenLanguage.Name + "</li>" + "</b>" + "<br>"
-                        teksti += "<br>" + "<li>" + "<b>" + data.Schedule.Shows.Show[i].dttmShowStart + "</li>" + "</b>" + "<br>"
-                        teksti += "<br>" + "<li>" + "<b>" + data.Schedule.Shows.Show[i].dttmShowEnd + "</li>" + "</b>" + "<br>"
-                        teksti += "<br>" + "<li>" + "<b>" + data.Schedule.Shows.Show[i].Rating + "</li>" + "</b>" + "<br>"
-                        teksti += "<br>" + "<li>" + "<b>" + data.Schedule.Shows.Show[i].Genres + "</li>" + "</b>" + "<br>"
+                        teksti += "<br>" + "<li>" + "Teatteri: " + "<b>" + data.Schedule.Shows.Show[i].TheatreAuditorium + "</li>" + "</b>"
+                        teksti += "<li>" + "Näyttö: " + "<b>" + data.Schedule.Shows.Show[i].PresentationMethod + "</li>" + "</b>"
+                        teksti += "<li>" + "Kieli: " + "<b>" + data.Schedule.Shows.Show[i].SpokenLanguage.Name + "</li>" + "</b>" 
+                        teksti += "<li>" + "Alkaa: " + "<b>" + data.Schedule.Shows.Show[i].dttmShowStart + "</li>" + "</b>" 
+                        teksti += "<li>" + "Loppuu: " + "<b>" + data.Schedule.Shows.Show[i].dttmShowEnd + "</li>" + "</b>" 
+                        teksti += "<li>" + "Ikäraja: " + "<b>" + data.Schedule.Shows.Show[i].Rating + "</li>" + "</b>"
+                        teksti += "<li>" + "Kategoria: " + "<b>" + data.Schedule.Shows.Show[i].Genres + "</li>" + "</b>" 
 
                         
                     }
