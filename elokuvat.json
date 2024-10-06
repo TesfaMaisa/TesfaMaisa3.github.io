@@ -1,0 +1,1221 @@
+{
+    "Schedule": {
+      "PubDate": "2024-10-06T00:00:00+03:00",
+      "Shows": {
+        "Show": [
+          {
+            "ID": 2117795,
+            "dtAccounting": "2024-10-06T00:00:00",
+            "dttmShowStart": "2024-10-06T11:50:00",
+            "dttmShowStartUTC": "2024-10-06T08:50:00Z",
+            "dttmShowEnd": "2024-10-06T13:47:00",
+            "dttmShowEndUTC": "2024-10-06T10:47:00Z",
+            "ShowSalesStartTime": "2000-01-01T00:00:00",
+            "ShowSalesStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowSalesEndTime": "2024-10-06T11:35:00",
+            "ShowSalesEndTimeUTC": "2024-10-06T08:35:00Z",
+            "ShowReservationStartTime": "2000-01-01T00:00:00",
+            "ShowReservationStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowReservationEndTime": "2024-10-05T09:50:00",
+            "ShowReservationEndTimeUTC": "2024-10-05T06:50:00Z",
+            "EventID": 304600,
+            "Title": "Villi robotti",
+            "OriginalTitle": "The Wild Robot",
+            "ProductionYear": 2024,
+            "LengthInMinutes": 102,
+            "dtLocalRelease": "2024-09-27T00:00:00",
+            "Rating": 7,
+            "RatingLabel": 7,
+            "RatingImageUrl": "https://media.finnkino.fi/images/rating_large_7.png",
+            "EventType": "Movie",
+            "Genres": "Perhe-elokuva, Animaatio, Kriitikoiden suosikki",
+            "TheatreID": 1059,
+            "TheatreAuditriumID": 1330,
+            "Theatre": "LUXE Mylly, Raisio",
+            "TheatreAuditorium": "LUXE by Crisp 2",
+            "TheatreAndAuditorium": "LUXE Mylly, Raisio, LUXE by Crisp 2",
+            "PresentationMethodAndLanguage": "2D, dubattu suomeksi",
+            "PresentationMethod": "2D",
+            "EventSeries": "",
+            "ShowURL": "http://www.finnkino.fi/websales/show/2117795/",
+            "EventURL": "http://www.finnkino.fi/event/304600/title/villi_robotti/",
+            "SpokenLanguage": {
+              "Name": "dubattu suomeksi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "FI"
+            },
+            "Images": {
+              "EventSmallImagePortrait": "http://media.finnkino.fi/1012/Event_14175/portrait_small/WildRobot_1080_v2.jpg",
+              "EventMediumImagePortrait": "http://media.finnkino.fi/1012/Event_14175/portrait_medium/WildRobot_1080_v2.jpg",
+              "EventLargeImagePortrait": "http://media.finnkino.fi/1012/Event_14175/portrait_large/WildRobot_1080_v2.jpg"
+            },
+            "ContentDescriptors": {
+              "ContentDescriptor": [
+                {
+                  "Name": "Violence",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Violence.png"
+                },
+                {
+                  "Name": "Disturbing",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Disturbing.png"
+                }
+              ]
+            }
+          },
+          {
+            "ID": 2117594,
+            "dtAccounting": "2024-10-06T00:00:00",
+            "dttmShowStart": "2024-10-06T12:15:00",
+            "dttmShowStartUTC": "2024-10-06T09:15:00Z",
+            "dttmShowEnd": "2024-10-06T14:05:00",
+            "dttmShowEndUTC": "2024-10-06T11:05:00Z",
+            "ShowSalesStartTime": "2000-01-01T00:00:00",
+            "ShowSalesStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowSalesEndTime": "2024-10-06T12:00:00",
+            "ShowSalesEndTimeUTC": "2024-10-06T09:00:00Z",
+            "ShowReservationStartTime": "2000-01-01T00:00:00",
+            "ShowReservationStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowReservationEndTime": "2024-10-05T10:15:00",
+            "ShowReservationEndTimeUTC": "2024-10-05T07:15:00Z",
+            "EventID": 304544,
+            "Title": "Itse ilkimys 4",
+            "OriginalTitle": "Despicable Me 4",
+            "ProductionYear": 2024,
+            "LengthInMinutes": 95,
+            "dtLocalRelease": "2024-06-28T00:00:00",
+            "Rating": 7,
+            "RatingLabel": 7,
+            "RatingImageUrl": "https://media.finnkino.fi/images/rating_large_7.png",
+            "EventType": "Movie",
+            "Genres": "Perhe-elokuva, Animaatio",
+            "TheatreID": 1059,
+            "TheatreAuditriumID": 1331,
+            "Theatre": "LUXE Mylly, Raisio",
+            "TheatreAuditorium": "LUXE 3",
+            "TheatreAndAuditorium": "LUXE Mylly, Raisio, LUXE 3",
+            "PresentationMethodAndLanguage": "2D, dubattu suomeksi",
+            "PresentationMethod": "2D",
+            "EventSeries": "",
+            "ShowURL": "http://www.finnkino.fi/websales/show/2117594/",
+            "EventURL": "http://www.finnkino.fi/event/304544/title/itse_ilkimys_4/",
+            "SpokenLanguage": {
+              "Name": "dubattu suomeksi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "FI"
+            },
+            "Images": {
+              "EventSmallImagePortrait": "http://media.finnkino.fi/1012/Event_14113/portrait_small/ItseIlkimys4_1080_v2.jpg",
+              "EventMediumImagePortrait": "http://media.finnkino.fi/1012/Event_14113/portrait_medium/ItseIlkimys4_1080_v2.jpg",
+              "EventLargeImagePortrait": "http://media.finnkino.fi/1012/Event_14113/portrait_large/ItseIlkimys4_1080_v2.jpg"
+            },
+            "ContentDescriptors": {
+              "ContentDescriptor": [
+                {
+                  "Name": "Violence",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Violence.png"
+                },
+                {
+                  "Name": "Disturbing",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Disturbing.png"
+                }
+              ]
+            }
+          },
+          {
+            "ID": 2117767,
+            "dtAccounting": "2024-10-06T00:00:00",
+            "dttmShowStart": "2024-10-06T12:30:00",
+            "dttmShowStartUTC": "2024-10-06T09:30:00Z",
+            "dttmShowEnd": "2024-10-06T14:29:00",
+            "dttmShowEndUTC": "2024-10-06T11:29:00Z",
+            "ShowSalesStartTime": "2000-01-01T00:00:00",
+            "ShowSalesStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowSalesEndTime": "2024-10-06T12:15:00",
+            "ShowSalesEndTimeUTC": "2024-10-06T09:15:00Z",
+            "ShowReservationStartTime": "2000-01-01T00:00:00",
+            "ShowReservationStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowReservationEndTime": "2024-10-05T10:30:00",
+            "ShowReservationEndTimeUTC": "2024-10-05T07:30:00Z",
+            "EventID": 304623,
+            "Title": "Transformers One",
+            "OriginalTitle": "Transformers One",
+            "ProductionYear": 2024,
+            "LengthInMinutes": 104,
+            "dtLocalRelease": "2024-09-20T00:00:00",
+            "Rating": 7,
+            "RatingLabel": 7,
+            "RatingImageUrl": "https://media.finnkino.fi/images/rating_large_7.png",
+            "EventType": "Movie",
+            "Genres": "Toiminta, Seikkailu, Perhe-elokuva, Animaatio",
+            "TheatreID": 1059,
+            "TheatreAuditriumID": 1333,
+            "Theatre": "LUXE Mylly, Raisio",
+            "TheatreAuditorium": "LUXE 5",
+            "TheatreAndAuditorium": "LUXE Mylly, Raisio, LUXE 5",
+            "PresentationMethodAndLanguage": "2D, dubattu suomeksi",
+            "PresentationMethod": "2D",
+            "EventSeries": "",
+            "ShowURL": "http://www.finnkino.fi/websales/show/2117767/",
+            "EventURL": "http://www.finnkino.fi/event/304623/title/transformers_one/",
+            "SpokenLanguage": {
+              "Name": "dubattu suomeksi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "FI"
+            },
+            "Images": {
+              "EventSmallImagePortrait": "http://media.finnkino.fi/1012/Event_14199/portrait_small/TransformersOne_1080_v2.jpg",
+              "EventMediumImagePortrait": "http://media.finnkino.fi/1012/Event_14199/portrait_medium/TransformersOne_1080_v2.jpg",
+              "EventLargeImagePortrait": "http://media.finnkino.fi/1012/Event_14199/portrait_large/TransformersOne_1080_v2.jpg"
+            },
+            "ContentDescriptors": {
+              "ContentDescriptor": [
+                {
+                  "Name": "Violence",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Violence.png"
+                },
+                {
+                  "Name": "Disturbing",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Disturbing.png"
+                }
+              ]
+            }
+          },
+          {
+            "ID": 2117658,
+            "dtAccounting": "2024-10-06T00:00:00",
+            "dttmShowStart": "2024-10-06T12:40:00",
+            "dttmShowStartUTC": "2024-10-06T09:40:00Z",
+            "dttmShowEnd": "2024-10-06T14:33:00",
+            "dttmShowEndUTC": "2024-10-06T11:33:00Z",
+            "ShowSalesStartTime": "2000-01-01T00:00:00",
+            "ShowSalesStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowSalesEndTime": "2024-10-06T12:25:00",
+            "ShowSalesEndTimeUTC": "2024-10-06T09:25:00Z",
+            "ShowReservationStartTime": "2000-01-01T00:00:00",
+            "ShowReservationStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowReservationEndTime": "2024-10-05T10:40:00",
+            "ShowReservationEndTimeUTC": "2024-10-05T07:40:00Z",
+            "EventID": 304574,
+            "Title": "Mielensäpahoittajan rakkaustarina",
+            "OriginalTitle": "Mielensäpahoittajan rakkaustarina",
+            "ProductionYear": 2024,
+            "LengthInMinutes": 98,
+            "dtLocalRelease": "2024-09-06T00:00:00",
+            "Rating": "S",
+            "RatingLabel": "S",
+            "RatingImageUrl": "https://media.finnkino.fi/images/rating_large_S.png",
+            "EventType": "Movie",
+            "Genres": "Komedia, Kotimainen",
+            "TheatreID": 1059,
+            "TheatreAuditriumID": 1334,
+            "Theatre": "LUXE Mylly, Raisio",
+            "TheatreAuditorium": "LUXE 6",
+            "TheatreAndAuditorium": "LUXE Mylly, Raisio, LUXE 6",
+            "PresentationMethodAndLanguage": "2D, suomi",
+            "PresentationMethod": "2D",
+            "EventSeries": "",
+            "ShowURL": "http://www.finnkino.fi/websales/show/2117658/",
+            "EventURL": "http://www.finnkino.fi/event/304574/title/mielens%C3%A4pahoittajan_rakkaustarina/",
+            "SpokenLanguage": {
+              "Name": "suomi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "FI"
+            },
+            "SubtitleLanguage1": {
+              "Name": "ruotsi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "SV"
+            },
+            "Images": {
+              "EventSmallImagePortrait": "http://media.finnkino.fi/1012/Event_14149/portrait_small/MielensapahoittajanRakkaustarina_1080.jpg",
+              "EventMediumImagePortrait": "http://media.finnkino.fi/1012/Event_14149/portrait_medium/MielensapahoittajanRakkaustarina_1080.jpg",
+              "EventLargeImagePortrait": "http://media.finnkino.fi/1012/Event_14149/portrait_large/MielensapahoittajanRakkaustarina_1080.jpg"
+            },
+            "ContentDescriptors": ""
+          },
+          {
+            "ID": 2117721,
+            "dtAccounting": "2024-10-06T00:00:00",
+            "dttmShowStart": "2024-10-06T13:30:00",
+            "dttmShowStartUTC": "2024-10-06T10:30:00Z",
+            "dttmShowEnd": "2024-10-06T16:03:00",
+            "dttmShowEndUTC": "2024-10-06T13:03:00Z",
+            "ShowSalesStartTime": "2000-01-01T00:00:00",
+            "ShowSalesStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowSalesEndTime": "2024-10-06T13:15:00",
+            "ShowSalesEndTimeUTC": "2024-10-06T10:15:00Z",
+            "ShowReservationStartTime": "2000-01-01T00:00:00",
+            "ShowReservationStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowReservationEndTime": "2024-10-05T11:30:00",
+            "ShowReservationEndTimeUTC": "2024-10-05T08:30:00Z",
+            "EventID": 304597,
+            "Title": "Joker: Folie à Deux",
+            "OriginalTitle": "Joker: Folie à Deux",
+            "ProductionYear": 2024,
+            "LengthInMinutes": 138,
+            "dtLocalRelease": "2024-10-04T00:00:00",
+            "Rating": 16,
+            "RatingLabel": 16,
+            "RatingImageUrl": "https://media.finnkino.fi/images/rating_large_16.png",
+            "EventType": "Movie",
+            "Genres": "Draama, Musikaali, Rikoselokuva",
+            "TheatreID": 1059,
+            "TheatreAuditriumID": 1329,
+            "Theatre": "LUXE Mylly, Raisio",
+            "TheatreAuditorium": "ISENSE",
+            "TheatreAndAuditorium": "LUXE Mylly, Raisio, ISENSE",
+            "PresentationMethodAndLanguage": "2D",
+            "PresentationMethod": "2D",
+            "EventSeries": "",
+            "ShowURL": "http://www.finnkino.fi/websales/show/2117721/",
+            "EventURL": "http://www.finnkino.fi/event/304597/title/joker_folie_%C3%A0_deux/",
+            "SpokenLanguage": {
+              "Name": "englanti",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "EN"
+            },
+            "SubtitleLanguage1": {
+              "Name": "suomi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "FI"
+            },
+            "SubtitleLanguage2": {
+              "Name": "ruotsi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "SV"
+            },
+            "Images": {
+              "EventSmallImagePortrait": "http://media.finnkino.fi/1012/Event_14172/portrait_small/JokerFolieADeux_1080_v3.jpg",
+              "EventMediumImagePortrait": "http://media.finnkino.fi/1012/Event_14172/portrait_medium/JokerFolieADeux_1080_v3.jpg",
+              "EventLargeImagePortrait": "http://media.finnkino.fi/1012/Event_14172/portrait_large/JokerFolieADeux_1080_v3.jpg"
+            },
+            "ContentDescriptors": {
+              "ContentDescriptor": [
+                {
+                  "Name": "Violence",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Violence.png"
+                },
+                {
+                  "Name": "Disturbing",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Disturbing.png"
+                }
+              ]
+            }
+          },
+          {
+            "ID": 2117715,
+            "dtAccounting": "2024-10-06T00:00:00",
+            "dttmShowStart": "2024-10-06T14:30:00",
+            "dttmShowStartUTC": "2024-10-06T11:30:00Z",
+            "dttmShowEnd": "2024-10-06T17:03:00",
+            "dttmShowEndUTC": "2024-10-06T14:03:00Z",
+            "ShowSalesStartTime": "2000-01-01T00:00:00",
+            "ShowSalesStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowSalesEndTime": "2024-10-06T14:15:00",
+            "ShowSalesEndTimeUTC": "2024-10-06T11:15:00Z",
+            "ShowReservationStartTime": "2000-01-01T00:00:00",
+            "ShowReservationStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowReservationEndTime": "2024-10-05T12:30:00",
+            "ShowReservationEndTimeUTC": "2024-10-05T09:30:00Z",
+            "EventID": 304597,
+            "Title": "Joker: Folie à Deux",
+            "OriginalTitle": "Joker: Folie à Deux",
+            "ProductionYear": 2024,
+            "LengthInMinutes": 138,
+            "dtLocalRelease": "2024-10-04T00:00:00",
+            "Rating": 16,
+            "RatingLabel": 16,
+            "RatingImageUrl": "https://media.finnkino.fi/images/rating_large_16.png",
+            "EventType": "Movie",
+            "Genres": "Draama, Musikaali, Rikoselokuva",
+            "TheatreID": 1059,
+            "TheatreAuditriumID": 1330,
+            "Theatre": "LUXE Mylly, Raisio",
+            "TheatreAuditorium": "LUXE by Crisp 2",
+            "TheatreAndAuditorium": "LUXE Mylly, Raisio, LUXE by Crisp 2",
+            "PresentationMethodAndLanguage": "2D",
+            "PresentationMethod": "2D",
+            "EventSeries": "",
+            "ShowURL": "http://www.finnkino.fi/websales/show/2117715/",
+            "EventURL": "http://www.finnkino.fi/event/304597/title/joker_folie_%C3%A0_deux/",
+            "SpokenLanguage": {
+              "Name": "englanti",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "EN"
+            },
+            "SubtitleLanguage1": {
+              "Name": "suomi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "FI"
+            },
+            "SubtitleLanguage2": {
+              "Name": "ruotsi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "SV"
+            },
+            "Images": {
+              "EventSmallImagePortrait": "http://media.finnkino.fi/1012/Event_14172/portrait_small/JokerFolieADeux_1080_v3.jpg",
+              "EventMediumImagePortrait": "http://media.finnkino.fi/1012/Event_14172/portrait_medium/JokerFolieADeux_1080_v3.jpg",
+              "EventLargeImagePortrait": "http://media.finnkino.fi/1012/Event_14172/portrait_large/JokerFolieADeux_1080_v3.jpg"
+            },
+            "ContentDescriptors": {
+              "ContentDescriptor": [
+                {
+                  "Name": "Violence",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Violence.png"
+                },
+                {
+                  "Name": "Disturbing",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Disturbing.png"
+                }
+              ]
+            }
+          },
+          {
+            "ID": 2117796,
+            "dtAccounting": "2024-10-06T00:00:00",
+            "dttmShowStart": "2024-10-06T14:45:00",
+            "dttmShowStartUTC": "2024-10-06T11:45:00Z",
+            "dttmShowEnd": "2024-10-06T16:42:00",
+            "dttmShowEndUTC": "2024-10-06T13:42:00Z",
+            "ShowSalesStartTime": "2000-01-01T00:00:00",
+            "ShowSalesStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowSalesEndTime": "2024-10-06T14:30:00",
+            "ShowSalesEndTimeUTC": "2024-10-06T11:30:00Z",
+            "ShowReservationStartTime": "2000-01-01T00:00:00",
+            "ShowReservationStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowReservationEndTime": "2024-10-05T12:45:00",
+            "ShowReservationEndTimeUTC": "2024-10-05T09:45:00Z",
+            "EventID": 304600,
+            "Title": "Villi robotti",
+            "OriginalTitle": "The Wild Robot",
+            "ProductionYear": 2024,
+            "LengthInMinutes": 102,
+            "dtLocalRelease": "2024-09-27T00:00:00",
+            "Rating": 7,
+            "RatingLabel": 7,
+            "RatingImageUrl": "https://media.finnkino.fi/images/rating_large_7.png",
+            "EventType": "Movie",
+            "Genres": "Perhe-elokuva, Animaatio, Kriitikoiden suosikki",
+            "TheatreID": 1059,
+            "TheatreAuditriumID": 1331,
+            "Theatre": "LUXE Mylly, Raisio",
+            "TheatreAuditorium": "LUXE 3",
+            "TheatreAndAuditorium": "LUXE Mylly, Raisio, LUXE 3",
+            "PresentationMethodAndLanguage": "2D, dubattu suomeksi",
+            "PresentationMethod": "2D",
+            "EventSeries": "",
+            "ShowURL": "http://www.finnkino.fi/websales/show/2117796/",
+            "EventURL": "http://www.finnkino.fi/event/304600/title/villi_robotti/",
+            "SpokenLanguage": {
+              "Name": "dubattu suomeksi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "FI"
+            },
+            "Images": {
+              "EventSmallImagePortrait": "http://media.finnkino.fi/1012/Event_14175/portrait_small/WildRobot_1080_v2.jpg",
+              "EventMediumImagePortrait": "http://media.finnkino.fi/1012/Event_14175/portrait_medium/WildRobot_1080_v2.jpg",
+              "EventLargeImagePortrait": "http://media.finnkino.fi/1012/Event_14175/portrait_large/WildRobot_1080_v2.jpg"
+            },
+            "ContentDescriptors": {
+              "ContentDescriptor": [
+                {
+                  "Name": "Violence",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Violence.png"
+                },
+                {
+                  "Name": "Disturbing",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Disturbing.png"
+                }
+              ]
+            }
+          },
+          {
+            "ID": 2117654,
+            "dtAccounting": "2024-10-06T00:00:00",
+            "dttmShowStart": "2024-10-06T15:20:00",
+            "dttmShowStartUTC": "2024-10-06T12:20:00Z",
+            "dttmShowEnd": "2024-10-06T17:13:00",
+            "dttmShowEndUTC": "2024-10-06T14:13:00Z",
+            "ShowSalesStartTime": "2000-01-01T00:00:00",
+            "ShowSalesStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowSalesEndTime": "2024-10-06T15:05:00",
+            "ShowSalesEndTimeUTC": "2024-10-06T12:05:00Z",
+            "ShowReservationStartTime": "2000-01-01T00:00:00",
+            "ShowReservationStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowReservationEndTime": "2024-10-05T13:20:00",
+            "ShowReservationEndTimeUTC": "2024-10-05T10:20:00Z",
+            "EventID": 304574,
+            "Title": "Mielensäpahoittajan rakkaustarina",
+            "OriginalTitle": "Mielensäpahoittajan rakkaustarina",
+            "ProductionYear": 2024,
+            "LengthInMinutes": 98,
+            "dtLocalRelease": "2024-09-06T00:00:00",
+            "Rating": "Anniskelu K18 (elokuva: S)",
+            "RatingLabel": "18_s",
+            "RatingImageUrl": "https://media.finnkino.fi/images/rating_large_18_s.png",
+            "EventType": "Movie",
+            "Genres": "Komedia, Kotimainen",
+            "TheatreID": 1059,
+            "TheatreAuditriumID": 1334,
+            "Theatre": "LUXE Mylly, Raisio",
+            "TheatreAuditorium": "LUXE 6",
+            "TheatreAndAuditorium": "LUXE Mylly, Raisio, LUXE 6",
+            "PresentationMethodAndLanguage": "2D, suomi",
+            "PresentationMethod": "2D",
+            "EventSeries": "K18 - Anniskelua salissa",
+            "ShowURL": "http://www.finnkino.fi/websales/show/2117654/",
+            "EventURL": "http://www.finnkino.fi/event/304574/title/mielens%C3%A4pahoittajan_rakkaustarina/",
+            "SpokenLanguage": {
+              "Name": "suomi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "FI"
+            },
+            "SubtitleLanguage1": {
+              "Name": "ruotsi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "SV"
+            },
+            "Images": {
+              "EventSmallImagePortrait": "http://media.finnkino.fi/1012/Event_14149/portrait_small/MielensapahoittajanRakkaustarina_1080.jpg",
+              "EventMediumImagePortrait": "http://media.finnkino.fi/1012/Event_14149/portrait_medium/MielensapahoittajanRakkaustarina_1080.jpg",
+              "EventLargeImagePortrait": "http://media.finnkino.fi/1012/Event_14149/portrait_large/MielensapahoittajanRakkaustarina_1080.jpg"
+            },
+            "ContentDescriptors": ""
+          },
+          {
+            "ID": 2117609,
+            "dtAccounting": "2024-10-06T00:00:00",
+            "dttmShowStart": "2024-10-06T15:25:00",
+            "dttmShowStartUTC": "2024-10-06T12:25:00Z",
+            "dttmShowEnd": "2024-10-06T17:25:00",
+            "dttmShowEndUTC": "2024-10-06T14:25:00Z",
+            "ShowSalesStartTime": "2000-01-01T00:00:00",
+            "ShowSalesStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowSalesEndTime": "2024-10-06T15:10:00",
+            "ShowSalesEndTimeUTC": "2024-10-06T12:10:00Z",
+            "ShowReservationStartTime": "2000-01-01T00:00:00",
+            "ShowReservationStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowReservationEndTime": "2024-10-05T13:25:00",
+            "ShowReservationEndTimeUTC": "2024-10-05T10:25:00Z",
+            "EventID": 304598,
+            "Title": "Beetlejuice Beetlejuice",
+            "OriginalTitle": "Beetlejuice Beetlejuice",
+            "ProductionYear": 2024,
+            "LengthInMinutes": 105,
+            "dtLocalRelease": "2024-09-06T00:00:00",
+            "Rating": 12,
+            "RatingLabel": 12,
+            "RatingImageUrl": "https://media.finnkino.fi/images/rating_large_12.png",
+            "EventType": "Movie",
+            "Genres": "Komedia, Fantasia, Kauhu",
+            "TheatreID": 1059,
+            "TheatreAuditriumID": 1333,
+            "Theatre": "LUXE Mylly, Raisio",
+            "TheatreAuditorium": "LUXE 5",
+            "TheatreAndAuditorium": "LUXE Mylly, Raisio, LUXE 5",
+            "PresentationMethodAndLanguage": "2D",
+            "PresentationMethod": "2D",
+            "EventSeries": "",
+            "ShowURL": "http://www.finnkino.fi/websales/show/2117609/",
+            "EventURL": "http://www.finnkino.fi/event/304598/title/beetlejuice_beetlejuice/",
+            "SpokenLanguage": {
+              "Name": "englanti",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "EN"
+            },
+            "SubtitleLanguage1": {
+              "Name": "suomi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "FI"
+            },
+            "SubtitleLanguage2": {
+              "Name": "ruotsi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "SV"
+            },
+            "Images": {
+              "EventSmallImagePortrait": "http://media.finnkino.fi/1012/Event_14173/portrait_small/Beetlejuice2_1080_v3.jpg",
+              "EventMediumImagePortrait": "http://media.finnkino.fi/1012/Event_14173/portrait_medium/Beetlejuice2_1080_v3.jpg",
+              "EventLargeImagePortrait": "http://media.finnkino.fi/1012/Event_14173/portrait_large/Beetlejuice2_1080_v3.jpg"
+            },
+            "ContentDescriptors": {
+              "ContentDescriptor": [
+                {
+                  "Name": "Violence",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Violence.png"
+                },
+                {
+                  "Name": "Disturbing",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Disturbing.png"
+                }
+              ]
+            }
+          },
+          {
+            "ID": 2107129,
+            "dtAccounting": "2024-10-06T00:00:00",
+            "dttmShowStart": "2024-10-06T17:00:00",
+            "dttmShowStartUTC": "2024-10-06T14:00:00Z",
+            "dttmShowEnd": "2024-10-06T19:33:00",
+            "dttmShowEndUTC": "2024-10-06T16:33:00Z",
+            "ShowSalesStartTime": "2000-01-01T00:00:00",
+            "ShowSalesStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowSalesEndTime": "2024-10-06T16:45:00",
+            "ShowSalesEndTimeUTC": "2024-10-06T13:45:00Z",
+            "ShowReservationStartTime": "2000-01-01T00:00:00",
+            "ShowReservationStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowReservationEndTime": "2024-10-05T15:00:00",
+            "ShowReservationEndTimeUTC": "2024-10-05T12:00:00Z",
+            "EventID": 304597,
+            "Title": "Joker: Folie à Deux",
+            "OriginalTitle": "Joker: Folie à Deux",
+            "ProductionYear": 2024,
+            "LengthInMinutes": 138,
+            "dtLocalRelease": "2024-10-04T00:00:00",
+            "Rating": "Anniskelu K18 (elokuva: 16)",
+            "RatingLabel": "18_16",
+            "RatingImageUrl": "https://media.finnkino.fi/images/rating_large_18_16.png",
+            "EventType": "Movie",
+            "Genres": "Draama, Musikaali, Rikoselokuva",
+            "TheatreID": 1059,
+            "TheatreAuditriumID": 1329,
+            "Theatre": "LUXE Mylly, Raisio",
+            "TheatreAuditorium": "ISENSE",
+            "TheatreAndAuditorium": "LUXE Mylly, Raisio, ISENSE",
+            "PresentationMethodAndLanguage": "2D",
+            "PresentationMethod": "2D",
+            "EventSeries": "K18 - Anniskelua salissa",
+            "ShowURL": "http://www.finnkino.fi/websales/show/2107129/",
+            "EventURL": "http://www.finnkino.fi/event/304597/title/joker_folie_%C3%A0_deux/",
+            "SpokenLanguage": {
+              "Name": "englanti",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "EN"
+            },
+            "SubtitleLanguage1": {
+              "Name": "suomi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "FI"
+            },
+            "SubtitleLanguage2": {
+              "Name": "ruotsi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "SV"
+            },
+            "Images": {
+              "EventSmallImagePortrait": "http://media.finnkino.fi/1012/Event_14172/portrait_small/JokerFolieADeux_1080_v3.jpg",
+              "EventMediumImagePortrait": "http://media.finnkino.fi/1012/Event_14172/portrait_medium/JokerFolieADeux_1080_v3.jpg",
+              "EventLargeImagePortrait": "http://media.finnkino.fi/1012/Event_14172/portrait_large/JokerFolieADeux_1080_v3.jpg"
+            },
+            "ContentDescriptors": {
+              "ContentDescriptor": [
+                {
+                  "Name": "Violence",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Violence.png"
+                },
+                {
+                  "Name": "Disturbing",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Disturbing.png"
+                }
+              ]
+            }
+          },
+          {
+            "ID": 2117629,
+            "dtAccounting": "2024-10-06T00:00:00",
+            "dttmShowStart": "2024-10-06T17:30:00",
+            "dttmShowStartUTC": "2024-10-06T14:30:00Z",
+            "dttmShowEnd": "2024-10-06T19:55:00",
+            "dttmShowEndUTC": "2024-10-06T16:55:00Z",
+            "ShowSalesStartTime": "2000-01-01T00:00:00",
+            "ShowSalesStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowSalesEndTime": "2024-10-06T17:15:00",
+            "ShowSalesEndTimeUTC": "2024-10-06T14:15:00Z",
+            "ShowReservationStartTime": "2000-01-01T00:00:00",
+            "ShowReservationStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowReservationEndTime": "2024-10-05T15:30:00",
+            "ShowReservationEndTimeUTC": "2024-10-05T12:30:00Z",
+            "EventID": 304630,
+            "Title": "Se päättyy meihin",
+            "OriginalTitle": "It Ends With Us",
+            "ProductionYear": 2024,
+            "LengthInMinutes": 130,
+            "dtLocalRelease": "2024-08-07T00:00:00",
+            "Rating": 12,
+            "RatingLabel": 12,
+            "RatingImageUrl": "https://media.finnkino.fi/images/rating_large_12.png",
+            "EventType": "Movie",
+            "Genres": "Draama",
+            "TheatreID": 1059,
+            "TheatreAuditriumID": 1331,
+            "Theatre": "LUXE Mylly, Raisio",
+            "TheatreAuditorium": "LUXE 3",
+            "TheatreAndAuditorium": "LUXE Mylly, Raisio, LUXE 3",
+            "PresentationMethodAndLanguage": "2D",
+            "PresentationMethod": "2D",
+            "EventSeries": "",
+            "ShowURL": "http://www.finnkino.fi/websales/show/2117629/",
+            "EventURL": "http://www.finnkino.fi/event/304630/title/se_p%C3%A4%C3%A4ttyy_meihin/",
+            "SpokenLanguage": {
+              "Name": "englanti",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "EN"
+            },
+            "SubtitleLanguage1": {
+              "Name": "suomi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "FI"
+            },
+            "SubtitleLanguage2": {
+              "Name": "ruotsi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "SV"
+            },
+            "Images": {
+              "EventSmallImagePortrait": "http://media.finnkino.fi/1012/Event_14207/portrait_small/ItEndsWithUs_1080.jpg",
+              "EventMediumImagePortrait": "http://media.finnkino.fi/1012/Event_14207/portrait_medium/ItEndsWithUs_1080.jpg",
+              "EventLargeImagePortrait": "http://media.finnkino.fi/1012/Event_14207/portrait_large/ItEndsWithUs_1080.jpg"
+            },
+            "ContentDescriptors": {
+              "ContentDescriptor": [
+                {
+                  "Name": "Violence",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Violence.png"
+                },
+                {
+                  "Name": "Disturbing",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Disturbing.png"
+                }
+              ]
+            }
+          },
+          {
+            "ID": 2117716,
+            "dtAccounting": "2024-10-06T00:00:00",
+            "dttmShowStart": "2024-10-06T17:45:00",
+            "dttmShowStartUTC": "2024-10-06T14:45:00Z",
+            "dttmShowEnd": "2024-10-06T20:18:00",
+            "dttmShowEndUTC": "2024-10-06T17:18:00Z",
+            "ShowSalesStartTime": "2000-01-01T00:00:00",
+            "ShowSalesStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowSalesEndTime": "2024-10-06T17:30:00",
+            "ShowSalesEndTimeUTC": "2024-10-06T14:30:00Z",
+            "ShowReservationStartTime": "2000-01-01T00:00:00",
+            "ShowReservationStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowReservationEndTime": "2024-10-05T15:45:00",
+            "ShowReservationEndTimeUTC": "2024-10-05T12:45:00Z",
+            "EventID": 304597,
+            "Title": "Joker: Folie à Deux",
+            "OriginalTitle": "Joker: Folie à Deux",
+            "ProductionYear": 2024,
+            "LengthInMinutes": 138,
+            "dtLocalRelease": "2024-10-04T00:00:00",
+            "Rating": 16,
+            "RatingLabel": 16,
+            "RatingImageUrl": "https://media.finnkino.fi/images/rating_large_16.png",
+            "EventType": "Movie",
+            "Genres": "Draama, Musikaali, Rikoselokuva",
+            "TheatreID": 1059,
+            "TheatreAuditriumID": 1330,
+            "Theatre": "LUXE Mylly, Raisio",
+            "TheatreAuditorium": "LUXE by Crisp 2",
+            "TheatreAndAuditorium": "LUXE Mylly, Raisio, LUXE by Crisp 2",
+            "PresentationMethodAndLanguage": "2D",
+            "PresentationMethod": "2D",
+            "EventSeries": "",
+            "ShowURL": "http://www.finnkino.fi/websales/show/2117716/",
+            "EventURL": "http://www.finnkino.fi/event/304597/title/joker_folie_%C3%A0_deux/",
+            "SpokenLanguage": {
+              "Name": "englanti",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "EN"
+            },
+            "SubtitleLanguage1": {
+              "Name": "suomi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "FI"
+            },
+            "SubtitleLanguage2": {
+              "Name": "ruotsi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "SV"
+            },
+            "Images": {
+              "EventSmallImagePortrait": "http://media.finnkino.fi/1012/Event_14172/portrait_small/JokerFolieADeux_1080_v3.jpg",
+              "EventMediumImagePortrait": "http://media.finnkino.fi/1012/Event_14172/portrait_medium/JokerFolieADeux_1080_v3.jpg",
+              "EventLargeImagePortrait": "http://media.finnkino.fi/1012/Event_14172/portrait_large/JokerFolieADeux_1080_v3.jpg"
+            },
+            "ContentDescriptors": {
+              "ContentDescriptor": [
+                {
+                  "Name": "Violence",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Violence.png"
+                },
+                {
+                  "Name": "Disturbing",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Disturbing.png"
+                }
+              ]
+            }
+          },
+          {
+            "ID": 2117797,
+            "dtAccounting": "2024-10-06T00:00:00",
+            "dttmShowStart": "2024-10-06T18:05:00",
+            "dttmShowStartUTC": "2024-10-06T15:05:00Z",
+            "dttmShowEnd": "2024-10-06T20:02:00",
+            "dttmShowEndUTC": "2024-10-06T17:02:00Z",
+            "ShowSalesStartTime": "2000-01-01T00:00:00",
+            "ShowSalesStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowSalesEndTime": "2024-10-06T17:50:00",
+            "ShowSalesEndTimeUTC": "2024-10-06T14:50:00Z",
+            "ShowReservationStartTime": "2000-01-01T00:00:00",
+            "ShowReservationStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowReservationEndTime": "2024-10-05T16:05:00",
+            "ShowReservationEndTimeUTC": "2024-10-05T13:05:00Z",
+            "EventID": 304600,
+            "Title": "Villi robotti",
+            "OriginalTitle": "The Wild Robot",
+            "ProductionYear": 2024,
+            "LengthInMinutes": 102,
+            "dtLocalRelease": "2024-09-27T00:00:00",
+            "Rating": 7,
+            "RatingLabel": 7,
+            "RatingImageUrl": "https://media.finnkino.fi/images/rating_large_7.png",
+            "EventType": "Movie",
+            "Genres": "Perhe-elokuva, Animaatio, Kriitikoiden suosikki",
+            "TheatreID": 1059,
+            "TheatreAuditriumID": 1334,
+            "Theatre": "LUXE Mylly, Raisio",
+            "TheatreAuditorium": "LUXE 6",
+            "TheatreAndAuditorium": "LUXE Mylly, Raisio, LUXE 6",
+            "PresentationMethodAndLanguage": "2D, dubattu suomeksi",
+            "PresentationMethod": "2D",
+            "EventSeries": "",
+            "ShowURL": "http://www.finnkino.fi/websales/show/2117797/",
+            "EventURL": "http://www.finnkino.fi/event/304600/title/villi_robotti/",
+            "SpokenLanguage": {
+              "Name": "dubattu suomeksi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "FI"
+            },
+            "Images": {
+              "EventSmallImagePortrait": "http://media.finnkino.fi/1012/Event_14175/portrait_small/WildRobot_1080_v2.jpg",
+              "EventMediumImagePortrait": "http://media.finnkino.fi/1012/Event_14175/portrait_medium/WildRobot_1080_v2.jpg",
+              "EventLargeImagePortrait": "http://media.finnkino.fi/1012/Event_14175/portrait_large/WildRobot_1080_v2.jpg"
+            },
+            "ContentDescriptors": {
+              "ContentDescriptor": [
+                {
+                  "Name": "Violence",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Violence.png"
+                },
+                {
+                  "Name": "Disturbing",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Disturbing.png"
+                }
+              ]
+            }
+          },
+          {
+            "ID": 2117734,
+            "dtAccounting": "2024-10-06T00:00:00",
+            "dttmShowStart": "2024-10-06T18:10:00",
+            "dttmShowStartUTC": "2024-10-06T15:10:00Z",
+            "dttmShowEnd": "2024-10-06T20:03:00",
+            "dttmShowEndUTC": "2024-10-06T17:03:00Z",
+            "ShowSalesStartTime": "2000-01-01T00:00:00",
+            "ShowSalesStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowSalesEndTime": "2024-10-06T17:55:00",
+            "ShowSalesEndTimeUTC": "2024-10-06T14:55:00Z",
+            "ShowReservationStartTime": "2000-01-01T00:00:00",
+            "ShowReservationStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowReservationEndTime": "2024-10-05T16:10:00",
+            "ShowReservationEndTimeUTC": "2024-10-05T13:10:00Z",
+            "EventID": 304656,
+            "Title": "Perhoset",
+            "OriginalTitle": "Perhoset",
+            "ProductionYear": 2024,
+            "LengthInMinutes": 98,
+            "dtLocalRelease": "2024-09-27T00:00:00",
+            "Rating": 7,
+            "RatingLabel": 7,
+            "RatingImageUrl": "https://media.finnkino.fi/images/rating_large_7.png",
+            "EventType": "Movie",
+            "Genres": "Komedia, Kotimainen",
+            "TheatreID": 1059,
+            "TheatreAuditriumID": 1333,
+            "Theatre": "LUXE Mylly, Raisio",
+            "TheatreAuditorium": "LUXE 5",
+            "TheatreAndAuditorium": "LUXE Mylly, Raisio, LUXE 5",
+            "PresentationMethodAndLanguage": "2D, suomi",
+            "PresentationMethod": "2D",
+            "EventSeries": "",
+            "ShowURL": "http://www.finnkino.fi/websales/show/2117734/",
+            "EventURL": "http://www.finnkino.fi/event/304656/title/perhoset/",
+            "SpokenLanguage": {
+              "Name": "suomi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "FI"
+            },
+            "SubtitleLanguage1": {
+              "Name": "ruotsi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "SV"
+            },
+            "Images": {
+              "EventSmallImagePortrait": "http://media.finnkino.fi/1012/Event_14234/portrait_small/Perhoset_1080.jpg",
+              "EventMediumImagePortrait": "http://media.finnkino.fi/1012/Event_14234/portrait_medium/Perhoset_1080.jpg",
+              "EventLargeImagePortrait": "http://media.finnkino.fi/1012/Event_14234/portrait_large/Perhoset_1080.jpg"
+            },
+            "ContentDescriptors": {
+              "ContentDescriptor": {
+                "Name": "Violence",
+                "ImageURL": "https://media.finnkino.fi/images/content_Violence.png"
+              }
+            }
+          },
+          {
+            "ID": 2107131,
+            "dtAccounting": "2024-10-06T00:00:00",
+            "dttmShowStart": "2024-10-06T20:30:00",
+            "dttmShowStartUTC": "2024-10-06T17:30:00Z",
+            "dttmShowEnd": "2024-10-06T23:03:00",
+            "dttmShowEndUTC": "2024-10-06T20:03:00Z",
+            "ShowSalesStartTime": "2000-01-01T00:00:00",
+            "ShowSalesStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowSalesEndTime": "2024-10-06T20:15:00",
+            "ShowSalesEndTimeUTC": "2024-10-06T17:15:00Z",
+            "ShowReservationStartTime": "2000-01-01T00:00:00",
+            "ShowReservationStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowReservationEndTime": "2024-10-05T18:30:00",
+            "ShowReservationEndTimeUTC": "2024-10-05T15:30:00Z",
+            "EventID": 304597,
+            "Title": "Joker: Folie à Deux",
+            "OriginalTitle": "Joker: Folie à Deux",
+            "ProductionYear": 2024,
+            "LengthInMinutes": 138,
+            "dtLocalRelease": "2024-10-04T00:00:00",
+            "Rating": "Anniskelu K18 (elokuva: 16)",
+            "RatingLabel": "18_16",
+            "RatingImageUrl": "https://media.finnkino.fi/images/rating_large_18_16.png",
+            "EventType": "Movie",
+            "Genres": "Draama, Musikaali, Rikoselokuva",
+            "TheatreID": 1059,
+            "TheatreAuditriumID": 1329,
+            "Theatre": "LUXE Mylly, Raisio",
+            "TheatreAuditorium": "ISENSE",
+            "TheatreAndAuditorium": "LUXE Mylly, Raisio, ISENSE",
+            "PresentationMethodAndLanguage": "2D",
+            "PresentationMethod": "2D",
+            "EventSeries": "K18 - Anniskelua salissa",
+            "ShowURL": "http://www.finnkino.fi/websales/show/2107131/",
+            "EventURL": "http://www.finnkino.fi/event/304597/title/joker_folie_%C3%A0_deux/",
+            "SpokenLanguage": {
+              "Name": "englanti",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "EN"
+            },
+            "SubtitleLanguage1": {
+              "Name": "suomi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "FI"
+            },
+            "SubtitleLanguage2": {
+              "Name": "ruotsi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "SV"
+            },
+            "Images": {
+              "EventSmallImagePortrait": "http://media.finnkino.fi/1012/Event_14172/portrait_small/JokerFolieADeux_1080_v3.jpg",
+              "EventMediumImagePortrait": "http://media.finnkino.fi/1012/Event_14172/portrait_medium/JokerFolieADeux_1080_v3.jpg",
+              "EventLargeImagePortrait": "http://media.finnkino.fi/1012/Event_14172/portrait_large/JokerFolieADeux_1080_v3.jpg"
+            },
+            "ContentDescriptors": {
+              "ContentDescriptor": [
+                {
+                  "Name": "Violence",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Violence.png"
+                },
+                {
+                  "Name": "Disturbing",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Disturbing.png"
+                }
+              ]
+            }
+          },
+          {
+            "ID": 2117579,
+            "dtAccounting": "2024-10-06T00:00:00",
+            "dttmShowStart": "2024-10-06T20:45:00",
+            "dttmShowStartUTC": "2024-10-06T17:45:00Z",
+            "dttmShowEnd": "2024-10-06T23:07:00",
+            "dttmShowEndUTC": "2024-10-06T20:07:00Z",
+            "ShowSalesStartTime": "2000-01-01T00:00:00",
+            "ShowSalesStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowSalesEndTime": "2024-10-06T20:30:00",
+            "ShowSalesEndTimeUTC": "2024-10-06T17:30:00Z",
+            "ShowReservationStartTime": "2000-01-01T00:00:00",
+            "ShowReservationStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowReservationEndTime": "2024-10-05T18:45:00",
+            "ShowReservationEndTimeUTC": "2024-10-05T15:45:00Z",
+            "EventID": 304539,
+            "Title": "Deadpool & Wolverine",
+            "OriginalTitle": "Deadpool & Wolverine",
+            "ProductionYear": 2024,
+            "LengthInMinutes": 127,
+            "dtLocalRelease": "2024-07-24T00:00:00",
+            "Rating": "Anniskelu K18 (elokuva: 16)",
+            "RatingLabel": "18_16",
+            "RatingImageUrl": "https://media.finnkino.fi/images/rating_large_18_16.png",
+            "EventType": "Movie",
+            "Genres": "Komedia, Toiminta, Sci-fi, Marvel",
+            "TheatreID": 1059,
+            "TheatreAuditriumID": 1331,
+            "Theatre": "LUXE Mylly, Raisio",
+            "TheatreAuditorium": "LUXE 3",
+            "TheatreAndAuditorium": "LUXE Mylly, Raisio, LUXE 3",
+            "PresentationMethodAndLanguage": "2D",
+            "PresentationMethod": "2D",
+            "EventSeries": "K18 - Anniskelua salissa",
+            "ShowURL": "http://www.finnkino.fi/websales/show/2117579/",
+            "EventURL": "http://www.finnkino.fi/event/304539/title/deadpool_and_wolverine/",
+            "SpokenLanguage": {
+              "Name": "englanti",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "EN"
+            },
+            "SubtitleLanguage1": {
+              "Name": "suomi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "FI"
+            },
+            "SubtitleLanguage2": {
+              "Name": "ruotsi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "SV"
+            },
+            "Images": {
+              "EventSmallImagePortrait": "http://media.finnkino.fi/1012/Event_14108/portrait_small/DeadpoolWolverine_1080_v3.jpg",
+              "EventMediumImagePortrait": "http://media.finnkino.fi/1012/Event_14108/portrait_medium/DeadpoolWolverine_1080_v3.jpg",
+              "EventLargeImagePortrait": "http://media.finnkino.fi/1012/Event_14108/portrait_large/DeadpoolWolverine_1080_v3.jpg"
+            },
+            "ContentDescriptors": {
+              "ContentDescriptor": {
+                "Name": "Violence",
+                "ImageURL": "https://media.finnkino.fi/images/content_Violence.png"
+              }
+            }
+          },
+          {
+            "ID": 2117749,
+            "dtAccounting": "2024-10-06T00:00:00",
+            "dttmShowStart": "2024-10-06T20:50:00",
+            "dttmShowStartUTC": "2024-10-06T17:50:00Z",
+            "dttmShowEnd": "2024-10-06T23:25:00",
+            "dttmShowEndUTC": "2024-10-06T20:25:00Z",
+            "ShowSalesStartTime": "2000-01-01T00:00:00",
+            "ShowSalesStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowSalesEndTime": "2024-10-06T20:35:00",
+            "ShowSalesEndTimeUTC": "2024-10-06T17:35:00Z",
+            "ShowReservationStartTime": "2000-01-01T00:00:00",
+            "ShowReservationStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowReservationEndTime": "2024-10-05T18:50:00",
+            "ShowReservationEndTimeUTC": "2024-10-05T15:50:00Z",
+            "EventID": 304695,
+            "Title": "The Substance",
+            "OriginalTitle": "The Substance",
+            "ProductionYear": 2024,
+            "LengthInMinutes": 140,
+            "dtLocalRelease": "2024-09-27T00:00:00",
+            "Rating": 16,
+            "RatingLabel": 16,
+            "RatingImageUrl": "https://media.finnkino.fi/images/rating_large_16.png",
+            "EventType": "Movie",
+            "Genres": "Draama, Kauhu, Kriitikoiden suosikki",
+            "TheatreID": 1059,
+            "TheatreAuditriumID": 1334,
+            "Theatre": "LUXE Mylly, Raisio",
+            "TheatreAuditorium": "LUXE 6",
+            "TheatreAndAuditorium": "LUXE Mylly, Raisio, LUXE 6",
+            "PresentationMethodAndLanguage": "2D",
+            "PresentationMethod": "2D",
+            "EventSeries": "",
+            "ShowURL": "http://www.finnkino.fi/websales/show/2117749/",
+            "EventURL": "http://www.finnkino.fi/event/304695/title/the_substance/",
+            "SpokenLanguage": {
+              "Name": "englanti",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "EN"
+            },
+            "SubtitleLanguage1": {
+              "Name": "suomi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "FI"
+            },
+            "SubtitleLanguage2": {
+              "Name": "ruotsi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "SV"
+            },
+            "Images": {
+              "EventSmallImagePortrait": "http://media.finnkino.fi/1012/Event_14277/portrait_small/TheSubstance_1080.jpg",
+              "EventMediumImagePortrait": "http://media.finnkino.fi/1012/Event_14277/portrait_medium/TheSubstance_1080.jpg",
+              "EventLargeImagePortrait": "http://media.finnkino.fi/1012/Event_14277/portrait_large/TheSubstance_1080.jpg"
+            },
+            "ContentDescriptors": {
+              "ContentDescriptor": [
+                {
+                  "Name": "Violence",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Violence.png"
+                },
+                {
+                  "Name": "Disturbing",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Disturbing.png"
+                }
+              ]
+            }
+          },
+          {
+            "ID": 2117813,
+            "dtAccounting": "2024-10-06T00:00:00",
+            "dttmShowStart": "2024-10-06T20:55:00",
+            "dttmShowStartUTC": "2024-10-06T17:55:00Z",
+            "dttmShowEnd": "2024-10-06T22:52:00",
+            "dttmShowEndUTC": "2024-10-06T19:52:00Z",
+            "ShowSalesStartTime": "2000-01-01T00:00:00",
+            "ShowSalesStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowSalesEndTime": "2024-10-06T20:40:00",
+            "ShowSalesEndTimeUTC": "2024-10-06T17:40:00Z",
+            "ShowReservationStartTime": "2000-01-01T00:00:00",
+            "ShowReservationStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowReservationEndTime": "2024-10-05T18:55:00",
+            "ShowReservationEndTimeUTC": "2024-10-05T15:55:00Z",
+            "EventID": 304600,
+            "Title": "Villi robotti",
+            "OriginalTitle": "The Wild Robot",
+            "ProductionYear": 2024,
+            "LengthInMinutes": 102,
+            "dtLocalRelease": "2024-09-27T00:00:00",
+            "Rating": 7,
+            "RatingLabel": 7,
+            "RatingImageUrl": "https://media.finnkino.fi/images/rating_large_7.png",
+            "EventType": "Movie",
+            "Genres": "Perhe-elokuva, Animaatio, Kriitikoiden suosikki",
+            "TheatreID": 1059,
+            "TheatreAuditriumID": 1333,
+            "Theatre": "LUXE Mylly, Raisio",
+            "TheatreAuditorium": "LUXE 5",
+            "TheatreAndAuditorium": "LUXE Mylly, Raisio, LUXE 5",
+            "PresentationMethodAndLanguage": "2D, englanti",
+            "PresentationMethod": "2D",
+            "EventSeries": "",
+            "ShowURL": "http://www.finnkino.fi/websales/show/2117813/",
+            "EventURL": "http://www.finnkino.fi/event/304600/title/villi_robotti/",
+            "SpokenLanguage": {
+              "Name": "englanti",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "EN"
+            },
+            "SubtitleLanguage1": {
+              "Name": "suomi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "FI"
+            },
+            "SubtitleLanguage2": {
+              "Name": "ruotsi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "SV"
+            },
+            "Images": {
+              "EventSmallImagePortrait": "http://media.finnkino.fi/1012/Event_14175/portrait_small/WildRobot_1080_v2.jpg",
+              "EventMediumImagePortrait": "http://media.finnkino.fi/1012/Event_14175/portrait_medium/WildRobot_1080_v2.jpg",
+              "EventLargeImagePortrait": "http://media.finnkino.fi/1012/Event_14175/portrait_large/WildRobot_1080_v2.jpg"
+            },
+            "ContentDescriptors": {
+              "ContentDescriptor": [
+                {
+                  "Name": "Violence",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Violence.png"
+                },
+                {
+                  "Name": "Disturbing",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Disturbing.png"
+                }
+              ]
+            }
+          },
+          {
+            "ID": 2107130,
+            "dtAccounting": "2024-10-06T00:00:00",
+            "dttmShowStart": "2024-10-06T21:00:00",
+            "dttmShowStartUTC": "2024-10-06T18:00:00Z",
+            "dttmShowEnd": "2024-10-06T23:33:00",
+            "dttmShowEndUTC": "2024-10-06T20:33:00Z",
+            "ShowSalesStartTime": "2000-01-01T00:00:00",
+            "ShowSalesStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowSalesEndTime": "2024-10-06T20:45:00",
+            "ShowSalesEndTimeUTC": "2024-10-06T17:45:00Z",
+            "ShowReservationStartTime": "2000-01-01T00:00:00",
+            "ShowReservationStartTimeUTC": "2000-01-01T00:00:00Z",
+            "ShowReservationEndTime": "2024-10-05T19:00:00",
+            "ShowReservationEndTimeUTC": "2024-10-05T16:00:00Z",
+            "EventID": 304597,
+            "Title": "Joker: Folie à Deux",
+            "OriginalTitle": "Joker: Folie à Deux",
+            "ProductionYear": 2024,
+            "LengthInMinutes": 138,
+            "dtLocalRelease": "2024-10-04T00:00:00",
+            "Rating": 16,
+            "RatingLabel": 16,
+            "RatingImageUrl": "https://media.finnkino.fi/images/rating_large_16.png",
+            "EventType": "Movie",
+            "Genres": "Draama, Musikaali, Rikoselokuva",
+            "TheatreID": 1059,
+            "TheatreAuditriumID": 1330,
+            "Theatre": "LUXE Mylly, Raisio",
+            "TheatreAuditorium": "LUXE by Crisp 2",
+            "TheatreAndAuditorium": "LUXE Mylly, Raisio, LUXE by Crisp 2",
+            "PresentationMethodAndLanguage": "2D",
+            "PresentationMethod": "2D",
+            "EventSeries": "",
+            "ShowURL": "http://www.finnkino.fi/websales/show/2107130/",
+            "EventURL": "http://www.finnkino.fi/event/304597/title/joker_folie_%C3%A0_deux/",
+            "SpokenLanguage": {
+              "Name": "englanti",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "EN"
+            },
+            "SubtitleLanguage1": {
+              "Name": "suomi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "FI"
+            },
+            "SubtitleLanguage2": {
+              "Name": "ruotsi",
+              "NameInLanguage": "",
+              "ISOTwoLetterCode": "SV"
+            },
+            "Images": {
+              "EventSmallImagePortrait": "http://media.finnkino.fi/1012/Event_14172/portrait_small/JokerFolieADeux_1080_v3.jpg",
+              "EventMediumImagePortrait": "http://media.finnkino.fi/1012/Event_14172/portrait_medium/JokerFolieADeux_1080_v3.jpg",
+              "EventLargeImagePortrait": "http://media.finnkino.fi/1012/Event_14172/portrait_large/JokerFolieADeux_1080_v3.jpg"
+            },
+            "ContentDescriptors": {
+              "ContentDescriptor": [
+                {
+                  "Name": "Violence",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Violence.png"
+                },
+                {
+                  "Name": "Disturbing",
+                  "ImageURL": "https://media.finnkino.fi/images/content_Disturbing.png"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
