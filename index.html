@@ -99,7 +99,7 @@
                     teksti = ""
                     teksti += "<center>" + "<h1>" + "OHJELMISTOSSA" + "</h1>" + "<br>"
                     for (i = 0; i < data.Schedule.Shows.Show.length; i++) {
-                        teksti += "<br>" + "<h2>" + "<b>" + data.Schedule.Shows.Show[i].Title + "</b>" + "</h2>" + "<br>"
+                        teksti += "<br>" + "<h2>" + "<b>" + data.Schedule.Shows.Show[i].Title.toUpperCase() + "</b>" + "</h2>" + "<br>"
                         teksti += "<br>" + "<img width='500' src='" + data.Schedule.Shows.Show[i].Images.EventLargeImagePortrait + "' alt='kuva' >" + "<b>" + "<br>"
                         teksti += "<br>" + "<li>" + "Teatteri: " + "<b>" + data.Schedule.Shows.Show[i].TheatreAuditorium + "</li>" + "</b>"
                         teksti += "<li>" + "Näyttö: " + "<b>" + data.Schedule.Shows.Show[i].PresentationMethod + "</li>" + "</b>"
@@ -116,7 +116,7 @@
             </script>
     
         <!-- Content section-->
-        <center> <img src="finnkino.png" height="500" alt=""></center>
+        <center> <img src="luxe2.png" height="500" alt=""></center>
 
         <!-- Image element - set the background image for the header in the line below-->
         <div class="py-5 bg-image-full"
