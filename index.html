@@ -58,7 +58,8 @@
             ul {
                 font-family: monospace;
             }
-            .border{
+
+            .border {
                 background-color: black;
             }
         </style>
@@ -85,8 +86,9 @@
             <br><br><br>
             <div class="text-center my-5 p-5 ">
 
-                <h1 class="text-white fs-3 py-5 fw-bolder"><br><h1><span class="border border-5 border-warning"> OHJELMISTOSSA </span></h1>
-                <p class="text-white-50 mb-0 p-5"><br></p>
+                <h1 class="text-white fs-3 py-5 fw-bolder"><br>
+                    <h1><span class="border border-5 border-warning"> OHJELMISTOSSA </span></h1>
+                    <p class="text-white-50 mb-0 p-5"><br></p>
             </div>
         </header>
         <br>
@@ -107,7 +109,7 @@
             function kerro(data) {
                 teksti = ""
                 for (i = 0; i < data.Schedule.Shows.Show.length; i++) {
-                    teksti += "<center>" +  "<br>" + "<br>" + "<h2>" + "<b>" + data.Schedule.Shows.Show[i].Title + "</b>" + "</h2>" + "<br>"
+                    teksti += "<center>" + "<br>" + "<br>" + "<h2>" + "<b>" + data.Schedule.Shows.Show[i].Title + "</b>" + "</h2>" + "<br>"
                     teksti += "<br>" + "<img width='500' src='" + data.Schedule.Shows.Show[i].Images.EventLargeImagePortrait + "' class='img-thumbnail'  alt='kuva' >" + "<br>"
                     teksti += "<br>" + "<li>" + "Teatteri: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].TheatreAuditorium + "</li>" + "</b>"
                     teksti += "<li>" + "Näyttö: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].PresentationMethod + "</li>" + "</b>"
@@ -130,7 +132,7 @@
         <!-- Content section-->
 
         <!-- Image element - set the background image for the header in the line below-->
-   <center><img height="100" src="luxe2.png" alt=""></center>
+        <center><img height="100" src="luxe2.png" alt=""></center>
         <!-- Content section-->
 
         <!-- Footer-->
