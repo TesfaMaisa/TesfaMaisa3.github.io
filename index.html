@@ -29,15 +29,15 @@
             h1 {
                 color: rgb(242, 211, 8);
                 border-color: rgb(242, 211, 8);
-                font-family:monospace;
-               
+                font-family: monospace;
+
             }
-           
+
 
             li {
                 color: aliceblue;
                 text-align: center;
-                font-family:monospace;
+                font-family: monospace;
                 text-transform: capitalize;
             }
 
@@ -45,21 +45,19 @@
                 color: aliceblue;
             }
 
-            hr{
-                color:rgb(242, 211, 8) ;
-                border-style:dashed;
-                
+            hr {
+                color: rgb(242, 211, 8);
+                border-style: dashed;
+
             }
-            .btn{
-                font-family: monospace;
-            }
-            ul{
+
+            .btn {
                 font-family: monospace;
             }
 
-
-        
-            
+            ul {
+                font-family: monospace;
+            }
         </style>
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-inverted bg-warning">
@@ -71,8 +69,9 @@
                         class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <ul class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Elokuvat</a></ul>
-                            <ul class="nav-item"><a class="nav-link" href="Uutiset.html">Uutiset</a></ul>
+                        <ul class="nav-item"><a class="nav-link active" aria-current="page"
+                                href="index.html">Elokuvat</a></ul>
+                        <ul class="nav-item"><a class="nav-link" href="Uutiset.html">Uutiset</a></ul>
                     </ul>
                 </div>
             </div>
@@ -81,51 +80,50 @@
         <header class="py-5 bg-image-full"
             style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900')">
             <div class="text-center my-5">
-                <img class="img-fluid" src="luxe.jpeg"
-                    alt="..." />
+                <img src="luxe.jpeg" alt="..." />
                 <div class="text">
-                <p class="text-white-50 mb-0"></p>
-            </div>
+                    <p class="text-white-50 mb-0"></p>
+                </div>
         </header>
         <div id="vastaus"></div>
-    
-         
-            <script>
-                fetch('elokuvat.json')
-                    .then(function (response) {
-                        return response.json();
-                    })
-                    .then(function (responsejson) {
-                        kerro(responsejson)
-                    })
-                    .catch(function (error) {
-                        document.getElementById("vastaus").innerHTML = "EI OK"
-                    });
-
-                function kerro(data) {
-                    teksti = ""
-                    teksti += "<center>" + "<h1>" + '<span class="border border-5 border-warning"> OHJELMISTOSSA </span>'  + "</h1>" + "<br>"
-                    for (i = 0; i < data.Schedule.Shows.Show.length; i++) {
-                        teksti += "<br>" + "<h2>" + "<b>" + data.Schedule.Shows.Show[i].Title + "</b>" + "</h2>" + "<br>"
-                        teksti += "<br>" + "<img width='500' src='" + data.Schedule.Shows.Show[i].Images.EventLargeImagePortrait + "' class='img-thumbnail'  alt='kuva' >" + "<br>"
-                        teksti += "<br>" + "<li>" + "Teatteri: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].TheatreAuditorium + "</li>" + "</b>" 
-                        teksti += "<li>" + "Näyttö: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].PresentationMethod + "</li>" + "</b>"
-                        teksti += "<li>" + "Kieli: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].SpokenLanguage.Name + "</li>" + "</b>"
-                        alkaa  = data.Schedule.Shows.Show[i].dttmShowStart
-                        teksti += "<li>" + "Alkaa: " + "<b style='color:rgb(242, 211, 8)'>" + alkaa.substr(0, 10) + " kello: " + alkaa.substr(11,5) + "</li>" + "</b>"  
-                        loppuu = data.Schedule.Shows.Show[i].dttmShowEnd
-                        teksti += "<li>" + "Loppuu: " + "<b style='color:rgb(242, 211, 8)'>" + loppuu.substr(0, 10) + " kello: " + loppuu.substr(11,5) + "</li>" + "</b>" 
-                        teksti += "<li>" + "Ikäraja: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].Rating + "</li>" + "</b>"
-                        teksti += "<li>" + "Kategoria: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].Genres + "</li>" + "</b>" + "<hr>" 
 
 
+        <script>
+            fetch('elokuvat.json')
+                .then(function (response) {
+                    return response.json();
+                })
+                .then(function (responsejson) {
+                    kerro(responsejson)
+                })
+                .catch(function (error) {
+                    document.getElementById("vastaus").innerHTML = "EI OK"
+                });
 
-                        
-                    }
-                    document.getElementById("vastaus").innerHTML = teksti
+            function kerro(data) {
+                teksti = ""
+                teksti += "<center>" + "<h1>" + '<span class="border border-5 border-warning"> OHJELMISTOSSA </span>' + "</h1>" + "<br>"
+                for (i = 0; i < data.Schedule.Shows.Show.length; i++) {
+                    teksti += "<br>" + "<h2>" + "<b>" + data.Schedule.Shows.Show[i].Title + "</b>" + "</h2>" + "<br>"
+                    teksti += "<br>" + "<img width='500' src='" + data.Schedule.Shows.Show[i].Images.EventLargeImagePortrait + "' class='img-thumbnail'  alt='kuva' >" + "<br>"
+                    teksti += "<br>" + "<li>" + "Teatteri: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].TheatreAuditorium + "</li>" + "</b>"
+                    teksti += "<li>" + "Näyttö: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].PresentationMethod + "</li>" + "</b>"
+                    teksti += "<li>" + "Kieli: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].SpokenLanguage.Name + "</li>" + "</b>"
+                    alkaa = data.Schedule.Shows.Show[i].dttmShowStart
+                    teksti += "<li>" + "Alkaa: " + "<b style='color:rgb(242, 211, 8)'>" + alkaa.substr(0, 10) + " kello: " + alkaa.substr(11, 5) + "</li>" + "</b>"
+                    loppuu = data.Schedule.Shows.Show[i].dttmShowEnd
+                    teksti += "<li>" + "Loppuu: " + "<b style='color:rgb(242, 211, 8)'>" + loppuu.substr(0, 10) + " kello: " + loppuu.substr(11, 5) + "</li>" + "</b>"
+                    teksti += "<li>" + "Ikäraja: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].Rating + "</li>" + "</b>"
+                    teksti += "<li>" + "Kategoria: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].Genres + "</li>" + "</b>" + "<hr>"
+
+
+
+
                 }
-            </script>
-    
+                document.getElementById("vastaus").innerHTML = teksti
+            }
+        </script>
+
         <!-- Content section-->
 
         <!-- Image element - set the background image for the header in the line below-->
