@@ -23,26 +23,23 @@
                 color: rgb(242, 211, 8);
                 text-decoration: underline;
                 font-family: monospace;
+                text-transform: uppercase;
             }
 
             h1 {
                 color: rgb(242, 211, 8);
-                border-style: ridge;
-                border-radius: 2cap;
+                border-radius: ;
                 border-color: rgb(242, 211, 8);
-                font-family:monospace
+                font-family:monospace;
                
             }
-            .text {
-                color: rgb(242, 211, 8);
-                font-weight: bolder;
-                font-size: 400%;
-            }
+           
 
             li {
                 color: aliceblue;
                 text-align: center;
-                font-family:monospace
+                font-family:monospace;
+                text-transform: capitalize;
             }
 
             h4 {
@@ -51,6 +48,11 @@
 
             hr{
                 color:rgb(242, 211, 8) ;
+                border-style:dashed;
+                
+            }
+            .btn{
+                font-family: monospace;
             }
 
         
@@ -99,9 +101,9 @@
 
                 function kerro(data) {
                     teksti = ""
-                    teksti += "<center>" + "<h1>" + "OHJELMISTOSSA" + "</h1>" + "<br>"
+                    teksti += "<center>" + "<h1>" + '<span class="border border-5 border-warning"> OHJELMISTOSSA </span>'  + "</h1>" + "<br>"
                     for (i = 0; i < data.Schedule.Shows.Show.length; i++) {
-                        teksti += "<br>" + "<h2>" + "<b>" + data.Schedule.Shows.Show[i].Title.toUpperCase() + "</b>" + "</h2>" + "<br>"
+                        teksti += "<br>" + "<h2>" + "<b>" + data.Schedule.Shows.Show[i].Title + "</b>" + "</h2>" + "<br>"
                         teksti += "<br>" + "<img width='500' src='" + data.Schedule.Shows.Show[i].Images.EventLargeImagePortrait + "' alt='kuva' >" + "<br>"
                         teksti += "<br>" + "<li>" + "Teatteri: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].TheatreAuditorium + "</li>" + "</b>" 
                         teksti += "<li>" + "Näyttö: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].PresentationMethod + "</li>" + "</b>"
@@ -111,7 +113,9 @@
                         loppuu = data.Schedule.Shows.Show[i].dttmShowEnd
                         teksti += "<li>" + "Loppuu: " + "<b style='color:rgb(242, 211, 8)'>" + loppuu.substr(0, 10) + " kello: " + loppuu.substr(11,5) + "</li>" + "</b>" 
                         teksti += "<li>" + "Ikäraja: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].Rating + "</li>" + "</b>"
-                        teksti += "<li>" + "Kategoria: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].Genres + "</li>" + "</b>" + "<hr>"
+                        teksti += "<li>" + "Kategoria: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].Genres + "</li>" + "</b>" 
+                        teksti += "<br>" + '<button type="button" class="btn btn-warning">Tilaa liput</button>' + "<hr>"
+
 
                         
                     }

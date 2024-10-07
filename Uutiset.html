@@ -23,6 +23,7 @@
                 color: rgb(242, 211, 8);
                 text-decoration: underline;
                 font-family: monospace;
+                text-transform: uppercase;
             }
             h4{
                 color: yellow;
@@ -30,16 +31,13 @@
             }
             h1 {
                 color: rgb(242, 211, 8);
-                border-style: ridge;
-                border-radius: 2cap;
-               border-color: rgb(242, 211, 8);
                font-family: monospace
             }
 
             p {
                 color: aliceblue;
                 text-align: center;
-                margin: 0 20% 0 20%;
+                margin: 0 10% 0 10%;
                 font-family: monospace;
             }
             hr{
@@ -87,8 +85,8 @@
 
             function kerro(data) {
                 teksti = ""
-                teksti += "<center>" + "<h1>" + "AJANKOHTAISTA" + "</h1>" + "<br>"
-                for (i = 0; i < data.News.NewsArticle.length; i++) {
+                teksti += "<center>" + "<h1>" + '<span class="border border-5 border-warning"> AJANKOHTAISTA </span>'  + "</h1>" + "<br>"
+                    for (i = 0; i < data.News.NewsArticle.length; i++) {
                     if (data.News.NewsArticle[i].HTMLLead != "") {
                         teksti +="<br>" + "<h2>" + data.News.NewsArticle[i].Title + "</h2>" + "<br>"
                         teksti += "<img width='500' src='" + data.News.NewsArticle[i].ImageURL + "' alt='kuva' >" + "<br>"
