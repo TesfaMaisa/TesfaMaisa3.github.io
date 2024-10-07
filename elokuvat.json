@@ -6,7 +6,7 @@
         {
           "ID": 2117714,
           "dtAccounting": "2024-10-07T00:00:00",
-          "dttmShowStart": "2024-07-10T14:30:00",
+          "dttmShowStart": "07-10-2024T14:30:00",
           "dttmShowStartUTC": "2024-10-07T11:30:00Z",
           "dttmShowEnd": "2024-10-07T17:03:00",
           "dttmShowEndUTC": "2024-10-07T14:03:00Z",
@@ -75,7 +75,7 @@
         {
           "ID": 2117790,
           "dtAccounting": "2024-10-07T00:00:00",
-          "dttmShowStart": "2024-07-10T14:35:00",
+          "dttmShowStart": "07-10-2024T14:35:00",
           "dttmShowStartUTC": "2024-10-07T11:35:00Z",
           "dttmShowEnd": "2024-10-07T16:32:00",
           "dttmShowEndUTC": "2024-10-07T13:32:00Z",
@@ -134,7 +134,7 @@
         {
           "ID": 2117652,
           "dtAccounting": "2024-10-07T00:00:00",
-          "dttmShowStart": "2024-07-10T14:55:00",
+          "dttmShowStart": "07-10-2024T14:55:00",
           "dttmShowStartUTC": "2024-10-07T11:55:00Z",
           "dttmShowEnd": "2024-10-07T16:48:00",
           "dttmShowEndUTC": "2024-10-07T13:48:00Z",
@@ -187,7 +187,7 @@
         {
           "ID": 2117863,
           "dtAccounting": "2024-10-07T00:00:00",
-          "dttmShowStart": "2024-07-10T15:00:00",
+          "dttmShowStart": "07-10-2024T15:00:00",
           "dttmShowStartUTC": "2024-10-07T12:00:00Z",
           "dttmShowEnd": "2024-10-07T16:53:00",
           "dttmShowEndUTC": "2024-10-07T13:53:00Z",
@@ -245,7 +245,7 @@
         {
           "ID": 2117761,
           "dtAccounting": "2024-10-07T00:00:00",
-          "dttmShowStart": "2024-07-10T15:15:00",
+          "dttmShowStart": "07-10-2024T15:15:00",
           "dttmShowStartUTC": "2024-10-07T12:15:00Z",
           "dttmShowEnd": "2024-10-07T17:27:00",
           "dttmShowEndUTC": "2024-10-07T14:27:00Z",
@@ -314,7 +314,7 @@
         {
           "ID": 2117627,
           "dtAccounting": "2024-10-07T00:00:00",
-          "dttmShowStart": "2024-07-10T17:20:00",
+          "dttmShowStart": "07-10-2024T17:20:00",
           "dttmShowStartUTC": "2024-10-07T14:20:00Z",
           "dttmShowEnd": "2024-10-07T19:45:00",
           "dttmShowEndUTC": "2024-10-07T16:45:00Z",
@@ -383,7 +383,7 @@
         {
           "ID": 2117708,
           "dtAccounting": "2024-10-07T00:00:00",
-          "dttmShowStart": "2024-07-10T17:40:00",
+          "dttmShowStart": "07-10-2024T17:40:00",
           "dttmShowStartUTC": "2024-10-07T14:40:00Z",
           "dttmShowEnd": "2024-10-07T20:13:00",
           "dttmShowEndUTC": "2024-10-07T17:13:00Z",
@@ -452,7 +452,7 @@
         {
           "ID": 2117653,
           "dtAccounting": "2024-10-07T00:00:00",
-          "dttmShowStart": "2024-07-10T17:40:00",
+          "dttmShowStart": "07-10-2024T17:40:00",
           "dttmShowStartUTC": "2024-10-07T14:40:00Z",
           "dttmShowEnd": "2024-10-07T19:33:00",
           "dttmShowEndUTC": "2024-10-07T16:33:00Z",
@@ -505,7 +505,7 @@
         {
           "ID": 2117791,
           "dtAccounting": "2024-10-07T00:00:00",
-          "dttmShowStart": "2024-07-10T17:50:00",
+          "dttmShowStart": "07-10-2024T17:50:00",
           "dttmShowStartUTC": "2024-10-07T14:50:00Z",
           "dttmShowEnd": "2024-10-07T19:47:00",
           "dttmShowEndUTC": "2024-10-07T16:47:00Z",
@@ -564,7 +564,7 @@
         {
           "ID": 2117728,
           "dtAccounting": "2024-10-07T00:00:00",
-          "dttmShowStart": "2024-07-10T18:10:00",
+          "dttmShowStart": "07-10-2024T18:10:00",
           "dttmShowStartUTC": "2024-10-07T15:10:00Z",
           "dttmShowEnd": "2024-10-07T20:03:00",
           "dttmShowEndUTC": "2024-10-07T17:03:00Z",
@@ -622,7 +622,7 @@
         {
           "ID": 2117843,
           "dtAccounting": "2024-10-07T00:00:00",
-          "dttmShowStart": "2024-07-10T20:35:00",
+          "dttmShowStart": "07-10-2024T20:35:00",
           "dttmShowStartUTC": "2024-10-07T17:35:00Z",
           "dttmShowEnd": "2024-10-07T22:49:00",
           "dttmShowEndUTC": "2024-10-07T19:49:00Z",
@@ -691,7 +691,7 @@
         {
           "ID": 2117608,
           "dtAccounting": "2024-10-07T00:00:00",
-          "dttmShowStart": "2024-07-10T20:40:00",
+          "dttmShowStart": "07-10-2024T20:40:00",
           "dttmShowStartUTC": "2024-10-07T17:40:00Z",
           "dttmShowEnd": "2024-10-07T22:40:00",
           "dttmShowEndUTC": "2024-10-07T19:40:00Z",
@@ -760,7 +760,7 @@
         {
           "ID": 2117582,
           "dtAccounting": "2024-10-07T00:00:00",
-          "dttmShowStart": "2024-07-10T20:45:00",
+          "dttmShowStart": "07-10-2024T20:45:00",
           "dttmShowStartUTC": "2024-10-07T17:45:00Z",
           "dttmShowEnd": "2024-10-07T23:07:00",
           "dttmShowEndUTC": "2024-10-07T20:07:00Z",
@@ -823,7 +823,7 @@
         {
           "ID": 2117743,
           "dtAccounting": "2024-10-07T00:00:00",
-          "dttmShowStart": "2024-07-10T20:45:00",
+          "dttmShowStart": "07-10-2024T20:45:00",
           "dttmShowStartUTC": "2024-10-07T17:45:00Z",
           "dttmShowEnd": "2024-10-07T23:20:00",
           "dttmShowEndUTC": "2024-10-07T20:20:00Z",
@@ -892,7 +892,7 @@
         {
           "ID": 2117709,
           "dtAccounting": "2024-10-07T00:00:00",
-          "dttmShowStart": "2024-07-10T21:00:00",
+          "dttmShowStart": "07-10-2024T21:00:00",
           "dttmShowStartUTC": "2024-10-07T18:00:00Z",
           "dttmShowEnd": "2024-10-07T23:33:00",
           "dttmShowEndUTC": "2024-10-07T20:33:00Z",
