@@ -67,7 +67,7 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav><br><br><br>
         <!-- Header - set the background image for the header in the line below-->
         <header class="py-5 bg-image-full"
             style="background-image: url('https://www.hexaplan.fi/media/Finnkino_mainos.png')">
@@ -98,7 +98,7 @@
                 for (i = 0; i < data.News.NewsArticle.length; i++) {
                     if (data.News.NewsArticle[i].HTMLLead != "") {
                         teksti += "<br>" + "<br>" + "<h2>" + data.News.NewsArticle[i].Title + "</h2>" + "<br>"
-                        teksti += "<img width='500' src='" + data.News.NewsArticle[i].ImageURL + "' class='img-thumbnail' alt='kuva' >" + "<br>"
+                        teksti += "<img width='500' height='500' src='" + data.News.NewsArticle[i].ImageURL + "' class='img-thumbnail' alt='kuva' >" + "<br>"
                         teksti += "<br>" + "<p>" + data.News.NewsArticle[i].HTMLLead + "</p>" + "<br>" + "<hr>"
                     }
 
