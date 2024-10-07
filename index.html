@@ -112,10 +112,10 @@
                     teksti += "<br>" + "<li>" + "Teatteri: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].TheatreAuditorium + "</li>" + "</b>"
                     teksti += "<li>" + "Näyttö: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].PresentationMethod + "</li>" + "</b>"
                     teksti += "<li>" + "Kieli: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].SpokenLanguage.Name + "</li>" + "</b>"
-                    alkaa = data.Schedule.Shows.Show[i].dttmShowStart
+                    alkaa   = data.Schedule.Shows.Show[i].dttmShowStart
                     teksti += "<li>" + "Alkaa: " + "<b style='color:rgb(242, 211, 8)'>" + alkaa.substr(0, 10) + " kello: " + alkaa.substr(11, 5) + "</li>" + "</b>"
-                    loppuu = data.Schedule.Shows.Show[i].dttmShowEnd
-                    teksti += "<li>" + "Loppuu: " + "<b style='color:rgb(242, 211, 8)'>" + loppuu.substr(0, 10) + " kello: " + loppuu.substr(11, 5) + "</li>" + "</b>"
+                    aika   = data.Schedule.Shows.Show[i].LengthInMinutes
+                    teksti += "<li>" + "Kestää: " + "<b style='color:rgb(242, 211, 8)'>" + Math.floor(aika / 60) + " tuntia ja " + aika % 60 + " minuuttia" + "</li>" + "</b>"
                     teksti += "<li>" + "Ikäraja: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].Rating + "</li>" + "</b>"
                     teksti += "<li>" + "Kategoria: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].Genres + "</li>" + "</b>" + "<hr>"
 
