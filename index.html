@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>LUXE|Elokuvat</title>
+        <title>LUXE | Elokuvat</title>
         <!-- Favicon-->
         <link rel="shortcut icon" type="image/ico" href="Favicon.png" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -118,10 +118,6 @@
                     teksti += "<li>" + "Kestää: " + "<b style='color:rgb(242, 211, 8)'>" + Math.floor(aika / 60) + " tuntia ja " + aika % 60 + " minuuttia" + "</li>" + "</b>"
                     teksti += "<li>" + "Ikäraja: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].Rating + "</li>" + "</b>"
                     teksti += "<li>" + "Kategoria: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].Genres + "</li>" + "</b>" + "<hr>"
-
-
-
-
                 }
                 document.getElementById("vastaus").innerHTML = teksti
             }
