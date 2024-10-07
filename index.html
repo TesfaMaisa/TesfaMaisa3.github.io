@@ -76,15 +76,16 @@
                 </div>
             </div>
         </nav>
+        
         <!-- Header - set the background image for the header in the line below-->
-        <header class="py-5 bg-image-full"
-            style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900')">
-            <div class="text-center my-5">
-                <center><img src="luxe.jpeg" alt="..." /></center>
-                <div class="text">
-                    <p class="text-white-50 mb-0"></p>
-                </div>
+        <header class="py-5 bg-image-full" style="background-image: url('https://www.hexaplan.fi/media/Finnkino_mainos.png')">
+            <div class="text-center my-5 p-5">
+                <br><br>
+                <h1 class="text-white fs-3 fw-bolder"><br></h1>
+                <p class="text-white-50 mb-0 p-5"><br></p>
+            </div>
         </header>
+        <br>
         <div id="vastaus"></div>
 
 
@@ -102,9 +103,9 @@
 
             function kerro(data) {
                 teksti = ""
-                teksti += "<center>" + "<h1>" + '<span class="border border-5 border-warning"> OHJELMISTOSSA </span>' + "</h1>" + "<br>"
+                teksti += "<br>" + "<center>" + "<h1>" + '<span class="border border-5 border-warning"> OHJELMISTOSSA </span>' + "</h1>" + "<br>" + "<br>"
                 for (i = 0; i < data.Schedule.Shows.Show.length; i++) {
-                    teksti += "<br>" + "<h2>" + "<b>" + data.Schedule.Shows.Show[i].Title + "</b>" + "</h2>" + "<br>"
+                    teksti += "<br>" + "<br>" + "<h2>" + "<b>" + data.Schedule.Shows.Show[i].Title + "</b>" + "</h2>" + "<br>"
                     teksti += "<br>" + "<img width='500' src='" + data.Schedule.Shows.Show[i].Images.EventLargeImagePortrait + "' class='img-thumbnail'  alt='kuva' >" + "<br>"
                     teksti += "<br>" + "<li>" + "Teatteri: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].TheatreAuditorium + "</li>" + "</b>"
                     teksti += "<li>" + "Näyttö: " + "<b style='color:rgb(242, 211, 8)'>" + data.Schedule.Shows.Show[i].PresentationMethod + "</li>" + "</b>"
